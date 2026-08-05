@@ -1,0 +1,2187 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="rifamycins-slides_files/libs/clipboard/clipboard.min.js"></script>
+<script src="rifamycins-slides_files/libs/quarto-html/tabby.min.js"></script>
+<script src="rifamycins-slides_files/libs/quarto-html/popper.min.js"></script>
+<script src="rifamycins-slides_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="rifamycins-slides_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="rifamycins-slides_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="rifamycins-slides_files/libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.38">
+
+  <meta name="author" content="Russell E. Lewis, Pharm.D.">
+  <meta name="dcterms.date" content="2026-07-31">
+  <title>Rifamycins</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="rifamycins-slides_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="rifamycins-slides_files/libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="rifamycins-slides_files/libs/revealjs/dist/theme/quarto-e00a554e04fa58bc9b49c742d3283ee2.css">
+  <link href="rifamycins-slides_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="rifamycins-slides_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="rifamycins-slides_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="rifamycins-slides_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" data-background-color="#0e1b2c" class="quarto-title-block center">
+  <h1 class="title">Rifamycins</h1>
+  <p class="subtitle">Rifampin · Rifabutin · Rifapentine · Rifaximin</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Russell E. Lewis, Pharm.D. 
+</div>
+        <p class="quarto-title-affiliation">
+            University of Padova — Infectious Diseases
+          </p>
+    </div>
+</div>
+
+  <p class="date">2026-07-31</p>
+</section>
+<section>
+<section id="introduction-history" class="title-slide slide level1 center">
+<h1>Introduction &amp; History</h1>
+
+</section>
+<section id="learning-objectives" class="slide level2">
+<h2>Learning Objectives</h2>
+<p><br></p>
+<ul>
+<li>Explain how rifamycins inhibit bacterial RNA polymerase and why a single <em>rpoB</em> mutation matters clinically</li>
+<li>Compare the pharmacokinetics and CYP induction of the four agents</li>
+<li>Apply the rifamycins across TB, LTBI, NTM, leprosy, and staphylococcal/device infection</li>
+<li>Decide <strong>when to add rifampin — and when not to</strong></li>
+<li>Position rifaximin among gut-selective indications</li>
+</ul>
+<aside class="notes">
+<p>This is a postgraduate ID hour. The through-line I want residents to leave with: rifamycins are extraordinary sterilizing drugs undermined by a one-mutation resistance problem, so almost everything about how we use them is about combination therapy and choosing the right clinical niche — above all, biofilm and retained hardware.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="a-drug-named-after-a-crime-film" class="slide level2">
+<h2>A drug named after a crime film</h2>
+<p><br></p>
+<ul>
+<li>Isolated by Sensi and colleagues, Milan, <strong>1959</strong> — from <em>Amycolatopsis mediterranei</em></li>
+<li>Nicknamed “<strong>Rififi</strong>” after a popular French heist film → the class name “rifamycins”</li>
+<li><strong>Rifamycin SV</strong> used clinically in 1963; replaced by <strong>rifampin (1968)</strong> for better bioavailability and broader activity, especially vs <em>M. tuberculosis</em></li>
+</ul>
+
+<aside class="notes">
+<p>The etymology is a nice hook, but the substantive point is that rifampin displaced the parent compound because of pharmacokinetics — a recurring theme in this class, where each newer agent is essentially a PK story.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Sensi1983 Forrest2010">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">1</a>,<a href="#/questions-discussion" role="doc-biblioref" onclick="">2</a>]</span></p>
+</div></aside></section>
+<section id="the-four-approved-rifamycins" class="slide level2">
+<h2>The four approved rifamycins</h2>
+<p><br></p>
+<ul>
+<li><strong>Rifampin</strong> — systemic workhorse; TB, staph/biofilm</li>
+<li><strong>Rifabutin</strong> — long half-life, weaker CYP induction; preferred with HIV protease inhibitors</li>
+<li><strong>Rifapentine</strong> — long half-life; enables once-weekly / short-course LTBI</li>
+<li><strong>Rifaximin</strong> — negligibly absorbed, gut-selective; HE, travelers’ diarrhea, IBS</li>
+</ul>
+<aside class="notes">
+<p>Frame these as one pharmacophore with four PK personalities. Everything downstream — dosing, interactions, indications — falls out of absorption, half-life, and enzyme induction.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="mechanism-resistance" class="title-slide slide level1 center">
+<h1>Mechanism &amp; Resistance</h1>
+
+</section>
+<section id="ansamycin-structure" class="slide level2">
+<h2>Ansamycin structure</h2>
+<p><br></p>
+<ul>
+<li>Ansamycin family (Latin <em>ansa</em>, “handle”): aliphatic bridge across a naphthoquinone core</li>
+<li>Rifampin = 3-(4-methyl-1-piperazinyl)-iminomethyl derivative of rifamycin SV</li>
+<li>Small structural tweaks → large PK differences across the four agents</li>
+</ul>
+<!-- IMAGE NEEDED: redrawn ansamycin scaffold showing the "handle" bridging the naphthoquinone core -->
+<aside class="notes">
+<p>Keep this brief — one slide of medicinal chemistry so the class name and the later “hybrid conjugate” investigational drugs make sense.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="mechanism-inhibition-of-rna-polymerase" class="slide level2">
+<h2>Mechanism: inhibition of RNA polymerase</h2>
+<p><br></p>
+<ul>
+<li>Bind the <strong>β-subunit</strong> of DNA-dependent RNA polymerase (RNAP) deep in the DNA/RNA channel</li>
+<li>Physically block elongation after the first/second nucleotide — the <strong>steric-occlusion model</strong> (crystal structure, <em>T. aquaticus</em>, 3.3 Å)</li>
+<li>Bactericidal; blocks transcription initiation</li>
+</ul>
+
+<aside class="notes">
+<p>The Campbell 2001 Cell structure is the definitive image. The allosteric model (Artsimovitch) is a nuance for a postgrad audience — mention it as an ongoing mechanistic debate, not settled fact.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Campbell2001 Artsimovitch2005">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">3</a>,<a href="#/questions-discussion" role="doc-biblioref" onclick="">4</a>]</span></p>
+</div></aside></section>
+<section id="why-the-therapeutic-index-is-favorable" class="slide level2">
+<h2>Why the therapeutic index is favorable</h2>
+<p><br></p>
+<ul>
+<li>Eukaryotic RNA polymerases <strong>do not</strong> bind rifamycins</li>
+<li>Human mitochondrial RNAP is insensitive at therapeutic concentrations</li>
+<li>Selective toxicity despite targeting a fundamental cellular process</li>
+</ul>
+<aside class="notes">
+<p>Residents sometimes assume a drug hitting “RNA synthesis” must be broadly toxic. The selectivity argument is worth making explicitly.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="resistance-the-rpob-problem" class="slide level2">
+<h2>Resistance: the rpoB problem</h2>
+<p><br></p>
+<ul>
+<li>Spontaneous resistance at <strong>10⁻⁸–10⁻⁹</strong> per cell division</li>
+<li>Mutations almost exclusively in <strong>rpoB</strong> → reduced RNAP affinity</li>
+<li><blockquote>
+<p>95% of resistant <em>M. tuberculosis</em> map to the 81-bp <strong>RRDR</strong> (codons 507–533)</p>
+</blockquote></li>
+<li>Hot spots: codons <strong>526</strong> and <strong>531</strong> → high-level, cross-class resistance</li>
+</ul>
+
+<aside class="notes">
+<p>Cross-resistance across rifampin/rifabutin/rifapentine at codons 526/531 is clinically important: you cannot rescue a high-level rifampin-resistant strain by switching to another rifamycin.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Ramaswamy1998 Ohno1996">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">5</a>,<a href="#/questions-discussion" role="doc-biblioref" onclick="">6</a>]</span></p>
+</div></aside></section>
+<section id="alternative-resistance-mechanisms" class="slide level2">
+<h2>Alternative resistance mechanisms</h2>
+<p><br></p>
+<ul>
+<li>Impaired uptake — <em>Pseudomonas fluorescens</em></li>
+<li>ADP-ribosylation via <strong>arr</strong> gene — <em>M. smegmatis</em>; plasmid-borne <em>arr-2</em> in <em>Enterobacterales</em>, <em>P. aeruginosa</em></li>
+<li>Intrinsically less-susceptible enzyme — <em>Nocardia</em></li>
+</ul>
+
+<aside class="notes">
+<p>These explain intrinsic gram-negative resistance and why rifampin MICs for Enterobacterales are high — relevant when people propose rifampin “synergy” for MDR gram-negatives.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Floss2005">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">7</a>]</span></p>
+</div></aside></section>
+<section id="clinical-consequence-never-monotherapy" class="slide level2">
+<h2>Clinical consequence: never monotherapy</h2>
+<p><br></p>
+<ul>
+<li>One point mutation → high-level resistance</li>
+<li>High bacterial burden (cavitary TB, abscess, endocarditis, biofilm) guarantees a resistant subpopulation</li>
+<li><strong>Rule:</strong> rifamycins are almost always given in combination</li>
+</ul>
+<aside class="notes">
+<p>This is the single most important operational takeaway of the lecture. Everything about staph and TB use flows from it. Say it plainly and come back to it.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="rapid-molecular-detection-xpert-mtbrif" class="slide level2">
+<h2>Rapid molecular detection: Xpert MTB/RIF</h2>
+<p><br></p>
+<ul>
+<li>Heminested PCR probes the RRDR of <em>rpoB</em></li>
+<li>Detects <em>M. tuberculosis</em> <strong>and</strong> rifampin resistance in ~2 hours</li>
+<li>WHO-recommended, including extrapulmonary disease</li>
+<li>Confirm genotypic resistance with sequencing/culture (≥10% discrepant results)</li>
+</ul>
+
+<aside class="notes">
+<p>Because rifampin resistance is a surrogate for MDR-TB, Xpert effectively screens for MDR at point of care — one of the highest-impact diagnostics in global TB. Note the false-positive caveat in low-prevalence settings.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Helb2010 Steingart2014 Drobniewski2015">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">8</a>–<a href="#/questions-discussion" role="doc-biblioref" onclick="">10</a>]</span></p>
+</div></aside></section></section>
+<section>
+<section id="pharmacology-interactions" class="title-slide slide level1 center">
+<h1>Pharmacology &amp; Interactions</h1>
+
+</section>
+<section id="comparative-pharmacokinetics" class="slide level2">
+<h2>Comparative pharmacokinetics</h2>
+<p><br></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Drug</th>
+<th style="text-align: center;">Bioavail. (%)</th>
+<th style="text-align: center;">t<sub>½</sub> (hr)</th>
+<th style="text-align: center;">Protein binding</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Rifampin</td>
+<td style="text-align: center;">68</td>
+<td style="text-align: center;">2–5</td>
+<td style="text-align: center;">80%</td>
+</tr>
+<tr class="even">
+<td>Rifabutin</td>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">32–67</td>
+<td style="text-align: center;">72–85%</td>
+</tr>
+<tr class="odd">
+<td>Rifapentine</td>
+<td style="text-align: center;">70 (food)</td>
+<td style="text-align: center;">14–18</td>
+<td style="text-align: center;">98%</td>
+</tr>
+<tr class="even">
+<td>Rifaximin</td>
+<td style="text-align: center;">&lt;0.4</td>
+<td style="text-align: center;">1.8–4.8</td>
+<td style="text-align: center;">62–68%</td>
+</tr>
+</tbody>
+</table>
+
+<aside class="notes">
+<p>Half-life is the story: rifampin daily, rifabutin daily but forgiving, rifapentine weekly, rifaximin acts locally. Rifapentine must be taken with food (50% higher Cmax with a high-fat meal).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Burman2001 Blaschke1996">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">11</a>,<a href="#/questions-discussion" role="doc-biblioref" onclick="">12</a>]</span></p>
+</div></aside></section>
+<section id="autoinduction" class="slide level2">
+<h2>Autoinduction</h2>
+<p><br></p>
+<ul>
+<li>Rifampin and rifabutin <strong>induce their own metabolism</strong></li>
+<li>Repeated dosing ↓ AUC over the first ~1–2 weeks</li>
+<li>Long post-antibiotic effect vs <em>M. tuberculosis</em> (68–75 h) for the systemic agents</li>
+</ul>
+
+<aside class="notes">
+<p>Autoinduction matters for TDM interpretation and for why steady-state exposures are lower than a single-dose PK study would predict.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Burman2001">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">11</a>]</span></p>
+</div></aside></section>
+<section id="cyp3a4-induction-the-core-interaction" class="slide level2">
+<h2>CYP3A4 induction — the core interaction</h2>
+<p><br></p>
+<ul>
+<li>Rifampin: most potent inducer of <strong>CYP3A4</strong> (also 1A2, 2C, 2D6, P-glycoprotein)</li>
+<li>Maximal at ~1 week; resolves ~2 weeks after stopping</li>
+<li>Lowers AUC/C<sub>max</sub> of many co-administered drugs</li>
+<li><strong>Induction rank: rifampin &gt; rifapentine &gt; rifabutin</strong></li>
+</ul>
+
+<aside class="notes">
+<p>The induction-potency rank is the single most useful interaction fact — it is the entire rationale for substituting rifabutin in ART. Emphasize it.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Baciewicz2013">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">13</a>]</span></p>
+</div></aside></section>
+<section id="high-yield-interacting-drugs-1-of-2" class="slide level2">
+<h2>High-yield interacting drugs (1 of 2)</h2>
+<p><br></p>
+<ul>
+<li><strong>Anticoagulants:</strong> warfarin, DOACs (apixaban, rivaroxaban, dabigatran)</li>
+<li><strong>Antimicrobials:</strong> azoles, clarithromycin, linezolid, HIV PIs/NNRTIs/integrase inhibitors, HCV DAAs, nirmatrelvir/ritonavir</li>
+<li><strong>Immunosuppressants:</strong> cyclosporine, tacrolimus, sirolimus</li>
+</ul>
+
+<aside class="notes">
+<p>Transplant and HIV are the two services that page you about rifampin. Flag tacrolimus/cyclosporine and the antiretrovirals as the ones that cause real harm through subtherapeutic exposure.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Baciewicz2013 DHHS_ARV">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">13</a>,<a href="#/questions-discussion" role="doc-biblioref" onclick="">14</a>]</span></p>
+</div></aside></section>
+<section id="high-yield-interacting-drugs-2-of-2" class="slide level2">
+<h2>High-yield interacting drugs (2 of 2)</h2>
+<p><br></p>
+<ul>
+<li><strong>Endocrine:</strong> oral contraceptives (counsel on failure), glucocorticoids, sulfonylureas, levothyroxine</li>
+<li><strong>Cardiovascular:</strong> calcium channel blockers, digoxin, quinidine</li>
+<li><strong>CNS/analgesia:</strong> methadone (withdrawal risk), phenytoin, benzodiazepines</li>
+</ul>
+
+<aside class="notes">
+<p>Two counseling points patients actually experience: contraceptive failure and methadone withdrawal. Both are common board and ward scenarios.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Baciewicz2013">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">13</a>]</span></p>
+</div></aside></section>
+<section id="managing-interactions-in-practice" class="slide level2">
+<h2>Managing interactions in practice</h2>
+<p><br></p>
+<ul>
+<li>Can’t tolerate strong induction (e.g., HIV PI regimen)? → <strong>switch to rifabutin</strong>, dose-adjusted</li>
+<li>Warn: red-orange urine, tears, sweat; permanent staining of soft contact lenses</li>
+<li>Verify contraceptive backup and re-dose narrow-therapeutic-index drugs</li>
+</ul>
+<aside class="notes">
+<p>The contact-lens and body-fluid discoloration point reassures patients and improves adherence. The rifabutin substitution is the actionable clinical move.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="the-four-agents" class="title-slide slide level1 center">
+<h1>The Four Agents</h1>
+
+</section>
+<section id="rifampin-pharmacokinetics" class="slide level2">
+<h2>Rifampin — pharmacokinetics</h2>
+<p><br></p>
+<ul>
+<li>600 mg daily (10–20 mg/kg children); only rifamycin available <strong>IV</strong></li>
+<li>Rapid, complete absorption — better on an empty stomach</li>
+<li>Wide distribution incl.&nbsp;CSF and bone; crosses placenta / breast milk</li>
+<li>Biliary elimination; <strong>no renal dose adjustment</strong>; adjust in severe hepatic impairment</li>
+</ul>
+
+<aside class="notes">
+<p>“IV available” and “no renal adjustment” are the two facts that come up on rounds. CSF penetration underpins its use in some CNS and shunt infections.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Burman2001">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">11</a>]</span></p>
+</div></aside></section>
+<section id="rifampin-flu-like-syndrome-renal-toxicity" class="slide level2">
+<h2>Rifampin — flu-like syndrome &amp; renal toxicity</h2>
+<p><br></p>
+<ul>
+<li>Flu-like syndrome (fever, myalgia, headache): immune-complex mediated, worse with <strong>intermittent</strong> dosing → switch to daily</li>
+<li>Acute interstitial nephritis with antirifampin antibodies — usually reversible on stopping</li>
+<li>Immune-mediated thrombocytopenia/hemolysis; rare DIC</li>
+</ul>
+
+<aside class="notes">
+<p>The pattern to teach: rifampin’s immune-mediated reactions cluster with intermittent/re-exposure dosing. Daily dosing is protective — counterintuitive but important.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Martinez1999 DeVriese1998">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">15</a>,<a href="#/questions-discussion" role="doc-biblioref" onclick="">16</a>]</span></p>
+</div></aside></section>
+<section id="rifampin-hepatotoxicity" class="slide level2">
+<h2>Rifampin — hepatotoxicity</h2>
+<p><br></p>
+<ul>
+<li>Usually mild, <strong>cholestatic</strong>; benign early hyperbilirubinemia</li>
+<li>Monotherapy hepatotoxicity ~<strong>1.1%</strong>; rises with isoniazid</li>
+<li>Rifampin + pyrazinamide for LTBI → severe hepatitis: <strong>abandoned</strong></li>
+<li><em>SLCO1B1</em> *15 haplotype predisposes</li>
+</ul>
+
+<aside class="notes">
+<p>The RIF+PZA LTBI story is a cautionary tale worth telling: an attractive short regimen abandoned after fatal liver injury. It also motivates the modern rifapentine-based short regimens.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Yew2006 MMWR2001Hepatic Li2012">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">17</a>–<a href="#/questions-discussion" role="doc-biblioref" onclick="">19</a>]</span></p>
+</div></aside></section>
+<section id="rifampin-antimicrobial-spectrum" class="slide level2">
+<h2>Rifampin — antimicrobial spectrum</h2>
+<p><br></p>
+<ul>
+<li>Most potent vs <strong>gram-positives</strong>: <em>S. aureus</em>, CoNS, streptococci, <em>Listeria</em>, <em>C. difficile</em></li>
+<li>Intracellular pathogens: <em>Chlamydia</em>, <em>Legionella</em>, <em>Brucella</em>, <em>Bartonella</em></li>
+<li>Mycobacteria: <em>M. tuberculosis</em>, MAC, <em>M. kansasii</em>, <em>M. marinum</em></li>
+<li>Gram-negatives: intrinsically high MICs</li>
+</ul>
+
+<aside class="notes">
+<p>Contrast the sub-0.015 µg/mL staphylococcal MICs with the ≥8–32 µg/mL Enterobacterales MICs on the next slide — that four-log gap explains the entire clinical positioning.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Thornsberry1983">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">20</a>]</span></p>
+</div></aside></section>
+<section id="rifampin-mics-representative-organisms" class="slide level2">
+<h2>Rifampin MICs — representative organisms</h2>
+<p><br></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Organism</th>
+<th style="text-align: center;">MIC<sub>50</sub> (µg/mL)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>Staphylococcus aureus</em></td>
+<td style="text-align: center;">0.015</td>
+</tr>
+<tr class="even">
+<td><em>Streptococcus pneumoniae</em></td>
+<td style="text-align: center;">0.12</td>
+</tr>
+<tr class="odd">
+<td><em>Neisseria meningitidis</em></td>
+<td style="text-align: center;">0.03</td>
+</tr>
+<tr class="even">
+<td><em>M. tuberculosis</em></td>
+<td style="text-align: center;">0.25</td>
+</tr>
+<tr class="odd">
+<td><em>Escherichia coli</em></td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr class="even">
+<td><em>Klebsiella pneumoniae</em></td>
+<td style="text-align: center;">32</td>
+</tr>
+<tr class="odd">
+<td><em>Pseudomonas aeruginosa</em></td>
+<td style="text-align: center;">32</td>
+</tr>
+</tbody>
+</table>
+
+<aside class="notes">
+<p>Let the numbers make the argument: exquisite gram-positive potency, poor gram-negative activity. This is why rifampin is a staph/mycobacterial drug, not a gram-negative one.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Thornsberry1983">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">20</a>]</span></p>
+</div></aside></section>
+<section id="rifabutin" class="slide level2">
+<h2>Rifabutin</h2>
+<p><br></p>
+<ul>
+<li>Spiropiperidyl analogue; long half-life (~35 h), once daily</li>
+<li><strong>Weaker CYP3A4 inducer</strong> than rifampin → preferred with HIV protease inhibitors</li>
+<li>Dose ↓ to 150 mg with ritonavir-boosted PI; ↑ to 450–600 mg with efavirenz</li>
+<li>Reduce dose if CrCl &lt;30 mL/min</li>
+</ul>
+
+<aside class="notes">
+<p>The bidirectional dosing (down with PIs, up with efavirenz) trips people up. Anchor it: PIs raise rifabutin (lower the dose); efavirenz lowers rifabutin (raise the dose).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Blaschke1996 Burman2001">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">11</a>,<a href="#/questions-discussion" role="doc-biblioref" onclick="">12</a>]</span></p>
+</div></aside></section>
+<section id="rifabutin-distinctive-toxicity" class="slide level2">
+<h2>Rifabutin — distinctive toxicity</h2>
+<p><br></p>
+<ul>
+<li><strong>Uveitis</strong> (dose- and interaction-dependent; may mimic endophthalmitis with hypopyon)</li>
+<li>Leukopenia, polyarthralgias</li>
+<li>Active vs <em>M. tuberculosis</em>, MAC, <em>H. pylori</em> (rescue therapy)</li>
+</ul>
+
+<aside class="notes">
+<p>Uveitis with clarithromycin or fluconazole co-administration (which raise rifabutin levels) is the classic exam association — anterior chamber, responds to steroids/cycloplegics.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Griffith1995 Graham2020">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">21</a>,<a href="#/questions-discussion" role="doc-biblioref" onclick="">22</a>]</span></p>
+</div></aside></section>
+<section id="rifapentine" class="slide level2">
+<h2>Rifapentine</h2>
+<p><br></p>
+<ul>
+<li>Cyclopentyl rifamycin; more potent vs <em>M. tuberculosis</em> (MIC 0.06 vs 0.25)</li>
+<li>Long half-life (14–18 h) → <strong>once-weekly / short-course</strong> regimens</li>
+<li>Take with food; induces CYP3A4/2C</li>
+<li>Hyperuricemia up to 21%; activity essentially limited to <em>M. tuberculosis</em></li>
+</ul>
+
+<aside class="notes">
+<p>Rifapentine exists to solve the adherence problem of long TB therapy. Its narrow spectrum (basically TB only) means you will not see it outside mycobacterial disease.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Heifets1990 Jarvis1998">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">23</a>,<a href="#/questions-discussion" role="doc-biblioref" onclick="">24</a>]</span></p>
+</div></aside></section>
+<section id="rifaximin" class="slide level2">
+<h2>Rifaximin</h2>
+<p><br></p>
+<ul>
+<li>Extra C-3/C-4 ring; <strong>&lt;0.01% absorbed</strong>, ~97% recovered in stool</li>
+<li>Very high fecal concentrations (~8000 µg/mL); negligible systemic interactions</li>
+<li>Active vs enteric pathogens + <em>C. difficile</em>; modulates microbiome / NF-κB</li>
+<li>No dose adjustment in cirrhosis</li>
+</ul>
+
+<aside class="notes">
+<p>Rifaximin breaks the CYP-interaction rule precisely because it never reaches the systemic circulation. That is the whole design. Keep it mentally separate from the systemic three.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Koo2010 DuPont2011">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">25</a>,<a href="#/questions-discussion" role="doc-biblioref" onclick="">26</a>]</span></p>
+</div></aside></section></section>
+<section>
+<section id="tuberculosis-ntm" class="title-slide slide level1 center">
+<h1>Tuberculosis &amp; NTM</h1>
+
+</section>
+<section id="rifampin-cornerstone-of-tb-therapy" class="slide level2">
+<h2>Rifampin: cornerstone of TB therapy</h2>
+<p><br></p>
+<ul>
+<li>Adding rifampin cut TB treatment from <strong>18 → 9 months</strong></li>
+<li>Best <strong>sterilizing activity</strong> among first-line drugs (kills dormant persisters)</li>
+<li>Penetrates cavitary lesions; cheap, globally available, safe</li>
+<li>First-line rifamycin for TB</li>
+</ul>
+
+<aside class="notes">
+<p>Sterilizing activity — killing the slowly/non-replicating persisters — is the property that shortens therapy and prevents relapse. It is distinct from early bactericidal activity.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Goble1993 Alfarisi2017">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">27</a>,<a href="#/questions-discussion" role="doc-biblioref" onclick="">28</a>]</span></p>
+</div></aside></section>
+<section id="is-10-mgkg-the-right-dose" class="slide level2">
+<h2>Is 10 mg/kg the right dose?</h2>
+<p><br></p>
+<ul>
+<li>Killing is <strong>concentration-dependent</strong>, best predicted by <strong>AUC/MIC</strong></li>
+<li>10 mg/kg sits at the low end of a steep dose-response curve</li>
+<li>Higher doses (up to 35 mg/kg) safe; faster culture conversion</li>
+<li>Prospect: shorter regimens with optimized dosing</li>
+</ul>
+
+<aside class="notes">
+<p>This is an active area — the historical dose was set by cost and PK assumptions from the 1970s, not efficacy. High-dose rifampin trials (PanACEA, etc.) are reshaping practice. Good discussion point for residents.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Gumbo2007 Jayaram2003 Boeree2015 Boeree2017">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">29</a>–<a href="#/questions-discussion" role="doc-biblioref" onclick="">32</a>]</span></p>
+</div></aside></section>
+<section id="rifapentine-in-active-tb" class="slide level2">
+<h2>Rifapentine in active TB</h2>
+<p><br></p>
+<ul>
+<li>Once-weekly rifapentine–isoniazid (continuation phase): relapse + <strong>acquired rifamycin monoresistance</strong> in HIV</li>
+<li>→ Do <strong>not</strong> use intermittent rifapentine in HIV</li>
+<li>Higher-dose daily rifapentine under study to shorten therapy</li>
+</ul>
+
+<aside class="notes">
+<p>The monoresistance signal in HIV-positive patients on intermittent rifapentine is a key safety lesson and the reason intermittent dosing is contraindicated in that group.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Benator2002 Jindani2014 Dooley2012">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">33</a>–<a href="#/questions-discussion" role="doc-biblioref" onclick="">35</a>]</span></p>
+</div></aside></section>
+<section id="rifabutin-in-tb-with-hiv" class="slide level2">
+<h2>Rifabutin in TB with HIV</h2>
+<p><br></p>
+<ul>
+<li>Efficacy similar to rifampin</li>
+<li><strong>Weaker enzyme induction</strong> → preferred with protease-inhibitor ART</li>
+<li>Rifampin remains preferred with <strong>efavirenz</strong>-based ART</li>
+</ul>
+
+<aside class="notes">
+<p>The decision rule: PI-based ART → rifabutin; efavirenz-based ART → rifampin. This maps directly onto the CYP induction hierarchy taught earlier.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Burman2001 Baciewicz2013">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">11</a>,<a href="#/questions-discussion" role="doc-biblioref" onclick="">13</a>]</span></p>
+</div></aside></section>
+<section id="ltbi-shorter-rifamycin-regimens" class="slide level2">
+<h2>LTBI: shorter rifamycin regimens</h2>
+<p><br></p>
+<ul>
+<li>4 months daily <strong>rifampin</strong></li>
+<li>3–4 months daily <strong>isoniazid + rifampin</strong></li>
+<li>12 weeks weekly <strong>isoniazid + rifapentine (3HP)</strong></li>
+<li>Shorter regimens → better completion, less hepatotoxicity than 9 months INH</li>
+</ul>
+
+<aside class="notes">
+<p>The field has decisively moved away from 9 months of isoniazid. Completion rate — not just efficacy — is the metric that changed practice.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Pease2017">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">36</a>]</span></p>
+</div></aside></section>
+<section id="hp-weekly-rifapentine-isoniazid" class="slide level2">
+<h2>3HP — weekly rifapentine + isoniazid</h2>
+<p><br></p>
+<ul>
+<li>12 once-weekly directly-observed doses</li>
+<li>As effective as 9 months daily isoniazid</li>
+<li>Higher completion, fewer severe adverse events</li>
+<li>Now an equal alternative for healthy patients ≥12 y</li>
+</ul>
+
+<aside class="notes">
+<p>The PREVENT TB trial (Sterling, NEJM 2011) is the landmark. Rifapentine’s long half-life is what makes weekly dosing pharmacologically possible.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Sterling2011">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">37</a>]</span></p>
+</div></aside></section>
+<section id="hp-one-month-for-people-with-hiv" class="slide level2">
+<h2>1HP — one month for people with HIV</h2>
+<p><br></p>
+<ul>
+<li>Daily rifapentine + isoniazid for <strong>1 month</strong></li>
+<li>Noninferior to 9 months isoniazid in HIV</li>
+<li>Higher completion (97% vs 90%)</li>
+</ul>
+
+<aside class="notes">
+<p>The BRIEF-TB / A5279 trial (Swindells, NEJM 2019). For a population where adherence is the central obstacle, one month is transformative.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Swindells2019">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">38</a>]</span></p>
+</div></aside></section>
+<section id="mycobacterium-avium-complex" class="slide level2">
+<h2>Mycobacterium avium complex</h2>
+<p><br></p>
+<ul>
+<li>Pulmonary MAC: macrolide + <strong>rifampin (or rifabutin)</strong> + ethambutol</li>
+<li>Rifabutin favored with significant drug interactions</li>
+<li>Disseminated AIDS-MAC: adding rifabutin improved survival, fewer relapses</li>
+</ul>
+
+<aside class="notes">
+<p>Note the rifampin–macrolide interaction lowers macrolide levels — a real pharmacologic tension in the recommended regimen. Rifabutin dosing must account for the macrolide.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Griffith2007 Benson2003">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">39</a>,<a href="#/questions-discussion" role="doc-biblioref" onclick="">40</a>]</span></p>
+</div></aside></section>
+<section id="m.-kansasii-and-leprosy" class="slide level2">
+<h2>M. kansasii and leprosy</h2>
+<p><br></p>
+<ul>
+<li><strong><em>M. kansasii</em>:</strong> rifampin + isoniazid + ethambutol; excellent response, low relapse</li>
+<li><strong>Leprosy:</strong> rifampin rapidly bactericidal vs <em>M. leprae</em>
+<ul>
+<li><ul>
+<li>dapsone (paucibacillary); + dapsone + clofazimine (multibacillary)</li>
+</ul></li>
+<li>single-dose rifampin reduces incidence in contacts — <strong>never monotherapy</strong></li>
+</ul></li>
+</ul>
+
+<aside class="notes">
+<p>Leprosy reinforces the monotherapy rule in a completely different organism — a nice way to generalize the rpoB lesson beyond TB and staph.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Griffith2007 Bullock1983 Moet2008">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">39</a>,<a href="#/questions-discussion" role="doc-biblioref" onclick="">41</a>,<a href="#/questions-discussion" role="doc-biblioref" onclick="">42</a>]</span></p>
+</div></aside></section></section>
+<section>
+<section id="staphylococcal-device-infections" class="title-slide slide level1 center">
+<h1>Staphylococcal &amp; Device Infections</h1>
+
+</section>
+<section id="why-rifampin-is-attractive-against-staph" class="slide level2">
+<h2>Why rifampin is attractive against staph</h2>
+<p><br></p>
+<ul>
+<li>Exquisite in-vitro potency vs <em>S. aureus</em> / CoNS (MIC ~0.015)</li>
+<li>Kills <strong>metabolically dormant</strong> organisms</li>
+<li>Penetrates and disrupts <strong>biofilm</strong></li>
+<li>Accumulates in neutrophils; active in acidic biofilm microenvironment</li>
+</ul>
+
+<aside class="notes">
+<p>These four properties are exactly what you want against a foreign body. Hold that thought — the entire clinical debate is about whether those in-vitro advantages translate, and where.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Mandell1983 Costerton1999">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">43</a>,<a href="#/questions-discussion" role="doc-biblioref" onclick="">44</a>]</span></p>
+</div></aside></section>
+<section id="but-monotherapy-fails" class="slide level2">
+<h2>…but monotherapy fails</h2>
+<p><br></p>
+<ul>
+<li>High-burden staph (abscess, endocarditis, biofilm) selects resistance rapidly</li>
+<li>Rifampin is <strong>always</strong> a combination agent for staph</li>
+<li>The clinical question is never “rifampin?” but “<strong>rifampin, with what, and when?</strong>”</li>
+</ul>
+
+<aside class="notes">
+<p>Reframe the decision. Residents ask “should I add rifampin?” The better question embeds combination, timing (after source control), and susceptibility.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Sande1975">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">45</a>]</span></p>
+</div></aside></section>
+<section id="native-valve-endocarditis-uncomplicated-bacteremia" class="slide level2">
+<h2>Native valve endocarditis &amp; uncomplicated bacteremia</h2>
+<p><br></p>
+<ul>
+<li>Adding rifampin does <strong>not</strong> improve outcomes</li>
+<li>Selects resistance; potential harm</li>
+<li>IDSA / AHA: recommend <strong>against</strong> rifampin in staphylococcal <strong>NVE</strong></li>
+</ul>
+
+<aside class="notes">
+<p>This is where trainees most often over-reach. Make the “against” recommendation explicit and tie it to resistance selection in a high-burden, no-hardware setting.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Baddour2015 Liu2011">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">46</a>,<a href="#/questions-discussion" role="doc-biblioref" onclick="">47</a>]</span></p>
+</div></aside></section>
+<section id="s.-aureus-bacteremia-the-evidence" class="slide level2">
+<h2>S. aureus bacteremia — the evidence</h2>
+<p><br></p>
+<ul>
+<li>Surgically treated endocarditis: adjunctive rifampin → <strong>no</strong> survival/reoperation benefit</li>
+<li>Meta-analysis: insufficient evidence for adjunctive rifampin in SAB</li>
+<li>Retrospective signal of benefit only with a <strong>deep focus</strong></li>
+</ul>
+
+<aside class="notes">
+<p>The ARREST trial (not in this chapter) reinforced no benefit and more interactions/resistance. The honest summary: outside retained hardware, the data do not support routine rifampin in SAB.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Shrestha2016 Ma2020 Forsblom2015">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">48</a>–<a href="#/questions-discussion" role="doc-biblioref" onclick="">50</a>]</span></p>
+</div></aside></section>
+<section id="prosthetic-valve-endocarditis" class="slide level2">
+<h2>Prosthetic valve endocarditis</h2>
+<p><br></p>
+<ul>
+<li>Staphylococcal <strong>PVE</strong>: rifampin part of triple therapy</li>
+<li>e.g., vancomycin + rifampin + gentamicin</li>
+<li>Rationale: prosthetic material = biofilm</li>
+</ul>
+
+<aside class="notes">
+<p>PVE is the endocarditis setting where guidelines <em>do</em> include rifampin — the difference from NVE is the prosthetic (biofilm) surface. Start rifampin after bacteremia clears.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Karchmer1983 Baddour2015">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">46</a>,<a href="#/questions-discussion" role="doc-biblioref" onclick="">51</a>]</span></p>
+</div></aside></section>
+<section id="landmark-rifampin-in-orthopedic-device-infection" class="slide level2">
+<h2>Landmark: rifampin in orthopedic device infection</h2>
+<p><br></p>
+<ul>
+<li><strong>Zimmerli FBI Study Group RCT (JAMA 1998)</strong></li>
+<li>Ciprofloxacin ± rifampin for stable implant-related staph infection, debridement + retention</li>
+<li>Rifampin arm: markedly higher cure</li>
+<li>Established rifampin’s genuine niche: <strong>biofilm on retained hardware</strong></li>
+</ul>
+
+<aside class="notes">
+<p>This is the positive counterpoint to the endocarditis slides — the one high-quality RCT showing rifampin combination works, and it is specifically device-associated infection managed with retention.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Zimmerli1998">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">52</a>]</span></p>
+</div></aside></section>
+<section id="pji-cohorts-duration-and-nuance" class="slide level2">
+<h2>PJI — cohorts, duration, and nuance</h2>
+<p><br></p>
+<ul>
+<li>Cohorts support rifampin combinations in PJI with <strong>debridement + implant retention</strong></li>
+<li>Randomized data on <strong>levofloxacin + rifampin duration</strong></li>
+<li>Large multicentre study: refined <em>if, when, how</em> to add rifampin in acute PJI</li>
+</ul>
+
+<aside class="notes">
+<p>The Beldman 2021 study is worth flagging: it tempers enthusiasm, showing timing and companion-drug choice matter and that indiscriminate early rifampin can harm. Nuance, not reflex.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="ElHelou2010 Peel2013 LoraTamayo2016 Beldman2021">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">53</a>–<a href="#/questions-discussion" role="doc-biblioref" onclick="">56</a>]</span></p>
+</div></aside></section>
+<section id="when-to-add-rifampin-and-when-not-to" class="slide level2">
+<h2>When to add rifampin — and when not to</h2>
+<p><br></p>
+<ul>
+<li><strong>Add:</strong> retained prosthetic material / biofilm (PJI with retention, PVE), susceptible isolate, <strong>after</strong> source control and bacteremia clearance</li>
+<li><strong>Avoid:</strong> uncomplicated SAB, native valve endocarditis</li>
+<li><strong>Never:</strong> start into a high-burden bacteremia before source control</li>
+</ul>
+<aside class="notes">
+<p>If residents remember one slide from the staph section, make it this one. The timing rule — wait for blood cultures to clear before adding rifampin — prevents the resistance that ruins the drug.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="visavrsa-and-rpob" class="slide level2">
+<h2>VISA/VRSA and rpoB</h2>
+<p><br></p>
+<ul>
+<li><em>rpoB</em> mutations reducing vancomycin susceptibility often confer <strong>rifampin resistance</strong></li>
+<li>Links vancomycin exposure ↔︎ rifampin resistance in <em>S. aureus</em></li>
+<li>Rifampin active vs 92% of VRSA but only 51% of VISA in one series</li>
+</ul>
+
+<aside class="notes">
+<p>A mechanistic curiosity with practical weight: the same cell-wall-thickening/rpoB biology couples the two resistances, so don’t assume rifampin susceptibility in reduced-vancomycin-susceptibility strains.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Watanabe2011">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">57</a>]</span></p>
+</div></aside></section>
+<section id="prevention-chemoprophylaxis-devices" class="slide level2">
+<h2>Prevention: chemoprophylaxis &amp; devices</h2>
+<p><br></p>
+<ul>
+<li>Meningococcal contacts: rifampin 600 mg BID ×2 d (resistance emerges — ceftriaxone/cipro often preferred)</li>
+<li><em>H. influenzae</em> type b contacts: rifampin ×4 d</li>
+<li><strong>CATCH trial:</strong> minocycline-rifampin catheters ↓ bloodstream infection 57%</li>
+<li><strong>WRAP-IT:</strong> antibacterial envelope ↓ major CIED infection (HR 0.60)</li>
+</ul>
+
+<aside class="notes">
+<p>Device prevention is a growing, evidence-backed use — WRAP-IT (Tarakji, NEJM 2019) is a large RCT. Contrast with the shakier therapeutic data, and note resistance concerns limit prophylactic systemic use.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="CATCH2016 Tarakji2019">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">58</a>,<a href="#/questions-discussion" role="doc-biblioref" onclick="">59</a>]</span></p>
+</div></aside></section></section>
+<section>
+<section id="rifaximin-gi-indications" class="title-slide slide level1 center">
+<h1>Rifaximin &amp; GI Indications</h1>
+
+</section>
+<section id="rifaximin-gut-selective-rifamycin" class="slide level2">
+<h2>Rifaximin: gut-selective rifamycin</h2>
+<p><br></p>
+<ul>
+<li>Negligible absorption → acts in the lumen</li>
+<li>Active vs enteric pathogens and <em>C. difficile</em></li>
+<li>Microbiome modulation + anti-inflammatory (NF-κB)</li>
+<li>Few systemic interactions — reserve for GI indications</li>
+</ul>
+
+<aside class="notes">
+<p>Set up the indication slides: everything rifaximin does well is downstream of “it stays in the gut.” That is both its strength and the boundary of its usefulness.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Koo2010 DuPont2011">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">25</a>,<a href="#/questions-discussion" role="doc-biblioref" onclick="">26</a>]</span></p>
+</div></aside></section>
+<section id="hepatic-encephalopathy" class="slide level2">
+<h2>Hepatic encephalopathy</h2>
+<p><br></p>
+<ul>
+<li>Rifaximin 550 mg BID — <strong>approved for prevention</strong></li>
+<li>Fewer breakthrough HE episodes; ↓ HE-related hospitalization vs placebo</li>
+<li>≥ as effective as lactulose, better tolerated</li>
+</ul>
+
+<aside class="notes">
+<p>The Bass 2010 NEJM trial is the pivotal evidence. Mechanism: fewer ammonia-producing gut organisms. Usually added to lactulose rather than replacing it.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Bass2010 Paik2005">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">60</a>,<a href="#/questions-discussion" role="doc-biblioref" onclick="">61</a>]</span></p>
+</div></aside></section>
+<section id="travelers-diarrhea" class="slide level2">
+<h2>Travelers’ diarrhea</h2>
+<p><br></p>
+<ul>
+<li>Shortens time to symptom resolution (non-invasive pathogens)</li>
+<li>~72% effective for chemoprophylaxis</li>
+<li>Fluoroquinolones preferred for prophylaxis (broader, invasive coverage)</li>
+</ul>
+
+<aside class="notes">
+<p>Rifaximin treats/prevents non-invasive (ETEC) diarrhea; it does not cover invasive/febrile dysentery, which is the limitation clinicians must remember.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="DuPont2005">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">62</a>]</span></p>
+</div></aside></section>
+<section id="recurrent-c.-difficile-infection" class="slide level2">
+<h2>Recurrent C. difficile infection</h2>
+<p><br></p>
+<ul>
+<li>“Rifaximin chaser” after vancomycin for recurrent CDI (response up to 83%)</li>
+<li>Resistance is a real concern — high MICs, disproportionately BI/NAP1/027</li>
+<li>Not first-line; a niche adjunct</li>
+</ul>
+
+<aside class="notes">
+<p>Frame honestly: small studies, resistance risk. In the fidaxomicin/FMT era, rifaximin is a limited option, but residents will still see it used as a chaser.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Garey2009 OConnor2008">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">63</a>,<a href="#/questions-discussion" role="doc-biblioref" onclick="">64</a>]</span></p>
+</div></aside></section>
+<section id="ibs-and-inflammatory-bowel-disease" class="slide level2">
+<h2>IBS and inflammatory bowel disease</h2>
+<p><br></p>
+<ul>
+<li>FDA-approved for <strong>IBS without constipation</strong> (modest benefit)</li>
+<li>Possible steroid-sparing role in IBD (UC, Crohn, pouchitis)</li>
+<li>Benefit attributed to microbiome + anti-inflammatory effects</li>
+</ul>
+
+<aside class="notes">
+<p>IBS is the highest-volume real-world use of rifaximin. The IBD data are softer — present as emerging rather than established.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="Guslandi2011">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">65</a>]</span></p>
+</div></aside></section>
+<section id="rifaximin-resistance-the-microbiome" class="slide level2">
+<h2>Rifaximin resistance &amp; the microbiome</h2>
+<p><br></p>
+<ul>
+<li>Rifampin-resistant staphylococci recovered from skin post-therapy (persist ≤9 wk)</li>
+<li>Rifaximin-resistant <em>E. coli</em> selected in the gut</li>
+<li>Reserve empirical/repeat courses</li>
+</ul>
+<aside class="notes">
+<p>Even a “non-systemic” rifamycin selects class resistance. This closes the loop with the rpoB theme: no rifamycin is exempt from the single-mutation problem.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="future-directions-summary" class="title-slide slide level1 center">
+<h1>Future Directions &amp; Summary</h1>
+
+</section>
+<section id="rifamycins-in-development" class="slide level2">
+<h2>Rifamycins in development</h2>
+<p><br></p>
+<ul>
+<li>Aerosolized rifampin (dry powders, liposomes, + colistin) for pulmonary delivery</li>
+<li>Rifamycin-eluting orthopedic scaffolds / PMMA</li>
+<li>Colon-targeted <strong>rifamycin SV MMX</strong></li>
+<li>Multi-targeting conjugates to beat single-mutation resistance: <strong>TNP-2092</strong>, <strong>TNP-2198</strong></li>
+</ul>
+
+<aside class="notes">
+<p>The conjugates are the conceptually interesting frontier: by hitting RNAP plus DNA gyrase/topoisomerase (TNP-2092) or adding a nitroimidazole (TNP-2198), they raise the genetic barrier that a single rpoB mutation otherwise lowers. Full citations for these two flagged for verification.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><span class="citation" data-cites="TNP2092 TNP2198">[<a href="#/questions-discussion" role="doc-biblioref" onclick="">66</a>,<a href="#/questions-discussion" role="doc-biblioref" onclick="">67</a>]</span></p>
+</div></aside></section>
+<section id="key-take-home-points" class="slide level2">
+<h2>Key take-home points</h2>
+<p><br></p>
+<ol type="1">
+<li>Inhibit prokaryotic RNAP (<em>rpoB</em>); one mutation → high-level resistance → <strong>never monotherapy</strong></li>
+<li><strong>CYP3A4</strong> induction: rifampin &gt; rifapentine &gt; rifabutin; rifabutin is the ART workaround</li>
+<li>TB: rifampin best sterilizer; rifapentine enables 3HP/1HP; rifabutin with PIs</li>
+<li>Staph: rifampin’s niche is <strong>retained hardware/biofilm</strong> — add after source control; avoid in uncomplicated SAB/NVE</li>
+<li><strong>Rifaximin</strong> = gut-selective: HE, travelers’ diarrhea, IBS, recurrent CDI</li>
+</ol>
+<aside class="notes">
+<p>Recap deliberately mirrors the objectives slide. If they leave with points 1 and 4, the hour succeeded.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="questions-discussion" class="slide level2 smaller scrollable">
+<h2>Questions &amp; Discussion</h2>
+<p><br></p>
+<p>Russell E. Lewis, Pharm.D. — University of Padova</p>
+<p><em>Rifampin · Rifabutin · Rifapentine · Rifaximin</em></p>
+<aside class="notes">
+<p>Open the floor. Likely discussion: high-dose rifampin trials, the ARREST trial and adjunctive rifampin in SAB, and practical ART co-management with rifabutin.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="ref-Sensi1983" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Sensi P. History of the development of rifampin. <em>Reviews of Infectious Diseases</em> 1983;5:S402–S406. <a href="https://doi.org/10.1093/clinids/5.supplement_3.s402">https://doi.org/10.1093/clinids/5.supplement_3.s402</a>.</div>
+</div>
+<div id="ref-Forrest2010" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Forrest GN, Tamura K. Rifampin combination therapy for nonmycobacterial infections. <em>Clinical Microbiology Reviews</em> 2010;23:14–34. <a href="https://doi.org/10.1128/CMR.00034-09">https://doi.org/10.1128/CMR.00034-09</a>.</div>
+</div>
+<div id="ref-Campbell2001" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Campbell EA, Korzheva N, Mustaev A, Murakami K, Nair S, Goldfarb A, Darst SA. Structural mechanism for rifampicin inhibition of bacterial RNA polymerase. <em>Cell</em> 2001;104:901–912. <a href="https://doi.org/10.1016/s0092-8674(01)00286-0">https://doi.org/10.1016/s0092-8674(01)00286-0</a>.</div>
+</div>
+<div id="ref-Artsimovitch2005" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Artsimovitch I, Vassylyeva MN, Svetlov D, Svetlov V, Perederina A, Igarashi N, Matsugaki N, Wakatsuki S, Tahirov TH, Vassylyev DG. Allosteric modulation of the RNA polymerase catalytic reaction is an essential component of transcription control by rifamycins. <em>Cell</em> 2005;122:351–363. <a href="https://doi.org/10.1016/j.cell.2005.07.014">https://doi.org/10.1016/j.cell.2005.07.014</a>.</div>
+</div>
+<div id="ref-Ramaswamy1998" class="csl-entry" role="listitem">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline">Ramaswamy S, Musser JM. Molecular genetic basis of antimicrobial agent resistance in <span class="nocase">Mycobacterium tuberculosis</span>: 1998 update. <em>Tubercle and Lung Disease</em> 1998;79:3–29. <a href="https://doi.org/10.1054/tuld.1998.0002">https://doi.org/10.1054/tuld.1998.0002</a>.</div>
+</div>
+<div id="ref-Ohno1996" class="csl-entry" role="listitem">
+<div class="csl-left-margin">6. </div><div class="csl-right-inline"><span class="nocase">Ohno H, Koga H, Kohno S, others</span>. Relationship between rifampin <span>MICs</span> for and <span class="nocase">rpoB</span> mutations of <span class="nocase">Mycobacterium tuberculosis</span> strains isolated in <span>Japan</span>. <em>Antimicrobial Agents and Chemotherapy</em> 1996;40:1053–1056. <a href="https://doi.org/10.1128/AAC.40.4.1053">https://doi.org/10.1128/AAC.40.4.1053</a>.</div>
+</div>
+<div id="ref-Floss2005" class="csl-entry" role="listitem">
+<div class="csl-left-margin">7. </div><div class="csl-right-inline">Floss HG, Yu T-W. Rifamycin—mode of action, resistance, and biosynthesis. <em>Chemical Reviews</em> 2005;105:621–632. <a href="https://doi.org/10.1021/cr030112j">https://doi.org/10.1021/cr030112j</a>.</div>
+</div>
+<div id="ref-Helb2010" class="csl-entry" role="listitem">
+<div class="csl-left-margin">8. </div><div class="csl-right-inline"><span class="nocase">Helb D, Jones M, Story E, others</span>. Rapid detection of <span class="nocase">Mycobacterium tuberculosis</span> and rifampin resistance by use of on-demand, near-patient technology. <em>Journal of Clinical Microbiology</em> 2010;48:229–237. <a href="https://doi.org/10.1128/JCM.01463-09">https://doi.org/10.1128/JCM.01463-09</a>.</div>
+</div>
+<div id="ref-Steingart2014" class="csl-entry" role="listitem">
+<div class="csl-left-margin">9. </div><div class="csl-right-inline">Steingart KR, Schiller I, Horne DJ, Pai M, Boehme CC, Dendukuri N. <span>Xpert MTB/RIF</span> assay for pulmonary tuberculosis and rifampicin resistance in adults. <em>Cochrane Database of Systematic Reviews</em> 2014;CD009593. <a href="https://doi.org/10.1002/14651858.CD009593.pub3">https://doi.org/10.1002/14651858.CD009593.pub3</a>.</div>
+</div>
+<div id="ref-Drobniewski2015" class="csl-entry" role="listitem">
+<div class="csl-left-margin">10. </div><div class="csl-right-inline"><span class="nocase">Drobniewski F, Cooke M, Jordan J, others</span>. Systematic review, meta-analysis and economic modelling of molecular diagnostic tests for antibiotic resistance in tuberculosis. <em>Health Technology Assessment</em> 2015;19:1–188.</div>
+</div>
+<div id="ref-Burman2001" class="csl-entry" role="listitem">
+<div class="csl-left-margin">11. </div><div class="csl-right-inline">Burman WJ, Gallicano K, Peloquin C. Comparative pharmacokinetics and pharmacodynamics of the rifamycin antibacterials. <em>Clinical Pharmacokinetics</em> 2001;40:327–341. <a href="https://doi.org/10.2165/00003088-200140050-00002">https://doi.org/10.2165/00003088-200140050-00002</a>.</div>
+</div>
+<div id="ref-Blaschke1996" class="csl-entry" role="listitem">
+<div class="csl-left-margin">12. </div><div class="csl-right-inline">Blaschke TF, Skinner MH. The clinical pharmacokinetics of rifabutin. <em>Clinical Infectious Diseases</em> 1996;22:S15–S21. <a href="https://doi.org/10.1093/clinids/22.supplement_1.s15">https://doi.org/10.1093/clinids/22.supplement_1.s15</a>.</div>
+</div>
+<div id="ref-Baciewicz2013" class="csl-entry" role="listitem">
+<div class="csl-left-margin">13. </div><div class="csl-right-inline">Baciewicz AM, Chrisman CR, Finch CK, Self TH. Update on rifampin, rifabutin, and rifapentine drug interactions. <em>Current Medical Research and Opinion</em> 2013;29:1–12. <a href="https://doi.org/10.1185/03007995.2012.747952">https://doi.org/10.1185/03007995.2012.747952</a>.</div>
+</div>
+<div id="ref-DHHS_ARV" class="csl-entry" role="listitem">
+<div class="csl-left-margin">14. </div><div class="csl-right-inline">Panel on Antiretroviral Guidelines for Adults and Adolescents. Guidelines for the use of antiretroviral agents in adults and adolescents with <span>HIV</span>. 2023.</div>
+</div>
+<div id="ref-Martinez1999" class="csl-entry" role="listitem">
+<div class="csl-left-margin">15. </div><div class="csl-right-inline">Martinez E, Collazos J, Mayo J. Hypersensitivity reactions to rifampin: Pathogenetic mechanisms, clinical manifestations, management strategies, and review of the anaphylactic-like reactions. <em>Medicine (Baltimore)</em> 1999;78:361–369. <a href="https://doi.org/10.1097/00005792-199911000-00001">https://doi.org/10.1097/00005792-199911000-00001</a>.</div>
+</div>
+<div id="ref-DeVriese1998" class="csl-entry" role="listitem">
+<div class="csl-left-margin">16. </div><div class="csl-right-inline"><span class="nocase">De Vriese AS, Robbrecht DL, Vanholder RC, others</span>. Rifampicin-associated acute renal failure: Pathophysiologic, immunologic, and clinical features. <em>American Journal of Kidney Diseases</em> 1998;31:108–115. <a href="https://doi.org/10.1053/ajkd.1998.v31.pm9428460">https://doi.org/10.1053/ajkd.1998.v31.pm9428460</a>.</div>
+</div>
+<div id="ref-Yew2006" class="csl-entry" role="listitem">
+<div class="csl-left-margin">17. </div><div class="csl-right-inline">Yew WW, Leung CC. Antituberculosis drugs and hepatotoxicity. <em>Respirology</em> 2006;11:699–707. <a href="https://doi.org/10.1111/j.1440-1843.2006.00941.x">https://doi.org/10.1111/j.1440-1843.2006.00941.x</a>.</div>
+</div>
+<div id="ref-MMWR2001Hepatic" class="csl-entry" role="listitem">
+<div class="csl-left-margin">18. </div><div class="csl-right-inline">Centers for Disease Control and Prevention. Update: Fatal and severe liver injuries associated with rifampin and pyrazinamide for latent tuberculosis infection, and revisions in <span>American Thoracic Society/CDC</span> recommendations—<span>United States</span>, 2001. <em>MMWR Morbidity and Mortality Weekly Report</em> 2001;50:733–735.</div>
+</div>
+<div id="ref-Li2012" class="csl-entry" role="listitem">
+<div class="csl-left-margin">19. </div><div class="csl-right-inline"><span class="nocase">Li LM, Chen L, Deng GH, others</span>. <span>SLCO1B1</span> *15 haplotype is associated with rifampin-induced liver injury. <em>Molecular Medicine Reports</em> 2012;6:75–82. <a href="https://doi.org/10.3892/mmr.2012.859">https://doi.org/10.3892/mmr.2012.859</a>.</div>
+</div>
+<div id="ref-Thornsberry1983" class="csl-entry" role="listitem">
+<div class="csl-left-margin">20. </div><div class="csl-right-inline">Thornsberry C, Hill BC, Swenson JM, McDougal LK. Rifampin: Spectrum of antibacterial activity. <em>Reviews of Infectious Diseases</em> 1983;5:S412–S417. <a href="https://doi.org/10.1093/clinids/5.supplement_3.s412">https://doi.org/10.1093/clinids/5.supplement_3.s412</a>.</div>
+</div>
+<div id="ref-Griffith1995" class="csl-entry" role="listitem">
+<div class="csl-left-margin">21. </div><div class="csl-right-inline">Griffith DE, Brown BA, Girard WM, Wallace RJ. Adverse events associated with high-dose rifabutin in macrolide-containing regimens for the treatment of <span class="nocase">Mycobacterium avium</span> complex lung disease. <em>Clinical Infectious Diseases</em> 1995;21:594–598. <a href="https://doi.org/10.1093/clinids/21.3.594">https://doi.org/10.1093/clinids/21.3.594</a>.</div>
+</div>
+<div id="ref-Graham2020" class="csl-entry" role="listitem">
+<div class="csl-left-margin">22. </div><div class="csl-right-inline"><span class="nocase">Graham DY, others</span>. Rifabutin-based triple therapy (<span>RHB-105</span>) for <span class="nocase">Helicobacter pylori</span> eradication: A double-blind, randomized, controlled trial. <em>Annals of Internal Medicine</em> 2020;172:795–802. <a href="https://doi.org/10.7326/M19-3734">https://doi.org/10.7326/M19-3734</a>.</div>
+</div>
+<div id="ref-Heifets1990" class="csl-entry" role="listitem">
+<div class="csl-left-margin">23. </div><div class="csl-right-inline">Heifets LB, Lindholm-Levy PJ, Flory MA. Bactericidal activity in vitro of various rifamycins against <span class="nocase">Mycobacterium avium</span> and <span class="nocase">Mycobacterium tuberculosis</span>. <em>American Review of Respiratory Disease</em> 1990;141:626–630. <a href="https://doi.org/10.1164/ajrccm/141.3.626">https://doi.org/10.1164/ajrccm/141.3.626</a>.</div>
+</div>
+<div id="ref-Jarvis1998" class="csl-entry" role="listitem">
+<div class="csl-left-margin">24. </div><div class="csl-right-inline">Jarvis B, Lamb HM. Rifapentine. <em>Drugs</em> 1998;56:607–616. <a href="https://doi.org/10.2165/00003495-199856040-00008">https://doi.org/10.2165/00003495-199856040-00008</a>.</div>
+</div>
+<div id="ref-Koo2010" class="csl-entry" role="listitem">
+<div class="csl-left-margin">25. </div><div class="csl-right-inline">Koo HL, DuPont HL. Rifaximin: A unique gastrointestinal-selective antibiotic for enteric diseases. <em>Current Opinion in Gastroenterology</em> 2010;26:17–25. <a href="https://doi.org/10.1097/MOG.0b013e328333dc8d">https://doi.org/10.1097/MOG.0b013e328333dc8d</a>.</div>
+</div>
+<div id="ref-DuPont2011" class="csl-entry" role="listitem">
+<div class="csl-left-margin">26. </div><div class="csl-right-inline">DuPont HL. Biologic properties and clinical uses of rifaximin. <em>Expert Opinion on Pharmacotherapy</em> 2011;12:293–302. <a href="https://doi.org/10.1517/14656566.2011.546347">https://doi.org/10.1517/14656566.2011.546347</a>.</div>
+</div>
+<div id="ref-Goble1993" class="csl-entry" role="listitem">
+<div class="csl-left-margin">27. </div><div class="csl-right-inline">Goble M, Iseman MD, Madsen LA, Waite D, Ackerson L, Horsburgh CR. Treatment of 171 patients with pulmonary tuberculosis resistant to isoniazid and rifampin. <em>New England Journal of Medicine</em> 1993;328:527–532. <a href="https://doi.org/10.1056/NEJM199302253280802">https://doi.org/10.1056/NEJM199302253280802</a>.</div>
+</div>
+<div id="ref-Alfarisi2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">28. </div><div class="csl-right-inline">Alfarisi O, Alghamdi WA, Al-Shaer MH, Dooley KE, Peloquin CA. Rifampin vs. Rifapentine: What is the preferred rifamycin for tuberculosis? <em>Expert Review of Clinical Pharmacology</em> 2017;10:1027–1036. <a href="https://doi.org/10.1080/17512433.2017.1366311">https://doi.org/10.1080/17512433.2017.1366311</a>.</div>
+</div>
+<div id="ref-Gumbo2007" class="csl-entry" role="listitem">
+<div class="csl-left-margin">29. </div><div class="csl-right-inline"><span class="nocase">Gumbo T, Louie A, Deziel MR, others</span>. Concentration-dependent <span class="nocase">Mycobacterium tuberculosis</span> killing and prevention of resistance by rifampin. <em>Antimicrobial Agents and Chemotherapy</em> 2007;51:3781–3788. <a href="https://doi.org/10.1128/AAC.01533-06">https://doi.org/10.1128/AAC.01533-06</a>.</div>
+</div>
+<div id="ref-Jayaram2003" class="csl-entry" role="listitem">
+<div class="csl-left-margin">30. </div><div class="csl-right-inline"><span class="nocase">Jayaram R, Gaonkar S, Kaur P, others</span>. Pharmacokinetics-pharmacodynamics of rifampin in an aerosol infection model of tuberculosis. <em>Antimicrobial Agents and Chemotherapy</em> 2003;47:2118–2124. <a href="https://doi.org/10.1128/AAC.47.7.2118-2124.2003">https://doi.org/10.1128/AAC.47.7.2118-2124.2003</a>.</div>
+</div>
+<div id="ref-Boeree2015" class="csl-entry" role="listitem">
+<div class="csl-left-margin">31. </div><div class="csl-right-inline"><span class="nocase">Boeree MJ, Diacon AH, Dawson R, others</span>. A dose-ranging trial to optimize the dose of rifampin in the treatment of tuberculosis. <em>American Journal of Respiratory and Critical Care Medicine</em> 2015;191:1058–1065. <a href="https://doi.org/10.1164/rccm.201407-1264OC">https://doi.org/10.1164/rccm.201407-1264OC</a>.</div>
+</div>
+<div id="ref-Boeree2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">32. </div><div class="csl-right-inline"><span class="nocase">Boeree MJ, Heinrich N, Aarnoutse R, others</span>. High-dose rifampicin, moxifloxacin, and <span>SQ109</span> for treating tuberculosis: A multi-arm, multi-stage randomised controlled trial. <em>Lancet Infectious Diseases</em> 2017;17:39–49. <a href="https://doi.org/10.1016/S1473-3099(16)30274-2">https://doi.org/10.1016/S1473-3099(16)30274-2</a>.</div>
+</div>
+<div id="ref-Benator2002" class="csl-entry" role="listitem">
+<div class="csl-left-margin">33. </div><div class="csl-right-inline"><span class="nocase">Benator D, Bhattacharya M, Bozeman L, others</span>. Rifapentine and isoniazid once a week versus rifampicin and isoniazid twice a week for treatment of drug-susceptible pulmonary tuberculosis in <span>HIV</span>-negative patients: A randomised clinical trial. <em>Lancet</em> 2002;360:528–534. <a href="https://doi.org/10.1016/S0140-6736(02)09742-8">https://doi.org/10.1016/S0140-6736(02)09742-8</a>.</div>
+</div>
+<div id="ref-Jindani2014" class="csl-entry" role="listitem">
+<div class="csl-left-margin">34. </div><div class="csl-right-inline"><span class="nocase">Jindani A, Harrison TS, Nunn AJ, others</span>. High-dose rifapentine with moxifloxacin for pulmonary tuberculosis. <em>New England Journal of Medicine</em> 2014;371:1599–1608. <a href="https://doi.org/10.1056/NEJMoa1314210">https://doi.org/10.1056/NEJMoa1314210</a>.</div>
+</div>
+<div id="ref-Dooley2012" class="csl-entry" role="listitem">
+<div class="csl-left-margin">35. </div><div class="csl-right-inline"><span class="nocase">Dooley KE, Bliven-Sizemore EE, Weiner M, others</span>. Safety and pharmacokinetics of escalating daily doses of the antituberculosis drug rifapentine in healthy volunteers. <em>Clinical Pharmacology and Therapeutics</em> 2012;91:881–888. <a href="https://doi.org/10.1038/clpt.2011.323">https://doi.org/10.1038/clpt.2011.323</a>.</div>
+</div>
+<div id="ref-Pease2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">36. </div><div class="csl-right-inline"><span class="nocase">Pease C, Hutton B, Yazdi F, others</span>. Efficacy and completion rates of rifapentine and isoniazid (<span>3HP</span>) compared to other treatment regimens for latent tuberculosis infection: A systematic review with network meta-analyses. <em>BMC Infectious Diseases</em> 2017;17:265. <a href="https://doi.org/10.1186/s12879-017-2377-x">https://doi.org/10.1186/s12879-017-2377-x</a>.</div>
+</div>
+<div id="ref-Sterling2011" class="csl-entry" role="listitem">
+<div class="csl-left-margin">37. </div><div class="csl-right-inline"><span class="nocase">Sterling TR, Villarino ME, Borisov AS, others</span>. Three months of rifapentine and isoniazid for latent tuberculosis infection. <em>New England Journal of Medicine</em> 2011;365:2155–2166. <a href="https://doi.org/10.1056/NEJMoa1104875">https://doi.org/10.1056/NEJMoa1104875</a>.</div>
+</div>
+<div id="ref-Swindells2019" class="csl-entry" role="listitem">
+<div class="csl-left-margin">38. </div><div class="csl-right-inline"><span class="nocase">Swindells S, Ramchandani R, Gupta A, others</span>. One month of rifapentine plus isoniazid to prevent <span>HIV</span>-related tuberculosis. <em>New England Journal of Medicine</em> 2019;380:1001–1011. <a href="https://doi.org/10.1056/NEJMoa1806808">https://doi.org/10.1056/NEJMoa1806808</a>.</div>
+</div>
+<div id="ref-Griffith2007" class="csl-entry" role="listitem">
+<div class="csl-left-margin">39. </div><div class="csl-right-inline"><span class="nocase">Griffith DE, Aksamit T, Brown-Elliott BA, others</span>. An official <span>ATS/IDSA</span> statement: Diagnosis, treatment, and prevention of nontuberculous mycobacterial diseases. <em>American Journal of Respiratory and Critical Care Medicine</em> 2007;175:367–416. <a href="https://doi.org/10.1164/rccm.200604-571ST">https://doi.org/10.1164/rccm.200604-571ST</a>.</div>
+</div>
+<div id="ref-Benson2003" class="csl-entry" role="listitem">
+<div class="csl-left-margin">40. </div><div class="csl-right-inline"><span class="nocase">Benson CA, Williams PL, Currier JS, others</span>. A prospective, randomized trial examining the efficacy and safety of clarithromycin in combination with ethambutol, rifabutin, or both for the treatment of disseminated <span class="nocase">Mycobacterium avium</span> complex disease in persons with acquired immunodeficiency syndrome. <em>Clinical Infectious Diseases</em> 2003;37:1234–1243. <a href="https://doi.org/10.1086/378807">https://doi.org/10.1086/378807</a>.</div>
+</div>
+<div id="ref-Bullock1983" class="csl-entry" role="listitem">
+<div class="csl-left-margin">41. </div><div class="csl-right-inline">Bullock WE. Rifampin in the treatment of leprosy. <em>Reviews of Infectious Diseases</em> 1983;5:S606–S613. <a href="https://doi.org/10.1093/clinids/5.supplement_3.s606">https://doi.org/10.1093/clinids/5.supplement_3.s606</a>.</div>
+</div>
+<div id="ref-Moet2008" class="csl-entry" role="listitem">
+<div class="csl-left-margin">42. </div><div class="csl-right-inline">Moet FJ, Pahan D, Oskam L, Richardus JH. Effectiveness of single dose rifampicin in preventing leprosy in close contacts of patients with newly diagnosed leprosy: Cluster randomised controlled trial. <em>BMJ</em> 2008;336:761–764. <a href="https://doi.org/10.1136/bmj.39500.885752.BE">https://doi.org/10.1136/bmj.39500.885752.BE</a>.</div>
+</div>
+<div id="ref-Mandell1983" class="csl-entry" role="listitem">
+<div class="csl-left-margin">43. </div><div class="csl-right-inline">Mandell GL. The antimicrobial activity of rifampin: Emphasis on the relation to phagocytes. <em>Reviews of Infectious Diseases</em> 1983;5:S463–S467. <a href="https://doi.org/10.1093/clinids/5.supplement_3.s463">https://doi.org/10.1093/clinids/5.supplement_3.s463</a>.</div>
+</div>
+<div id="ref-Costerton1999" class="csl-entry" role="listitem">
+<div class="csl-left-margin">44. </div><div class="csl-right-inline">Costerton JW, Stewart PS, Greenberg EP. Bacterial biofilms: A common cause of persistent infections. <em>Science</em> 1999;284:1318–1322. <a href="https://doi.org/10.1126/science.284.5418.1318">https://doi.org/10.1126/science.284.5418.1318</a>.</div>
+</div>
+<div id="ref-Sande1975" class="csl-entry" role="listitem">
+<div class="csl-left-margin">45. </div><div class="csl-right-inline">Sande MA, Johnson ML. Antimicrobial therapy of experimental endocarditis caused by <span class="nocase">Staphylococcus aureus</span>. <em>Journal of Infectious Diseases</em> 1975;131:367–375. <a href="https://doi.org/10.1093/infdis/131.4.367">https://doi.org/10.1093/infdis/131.4.367</a>.</div>
+</div>
+<div id="ref-Baddour2015" class="csl-entry" role="listitem">
+<div class="csl-left-margin">46. </div><div class="csl-right-inline"><span class="nocase">Baddour LM, Wilson WR, Bayer AS, others</span>. Infective endocarditis in adults: Diagnosis, antimicrobial therapy, and management of complications: A scientific statement for healthcare professionals from the <span>American Heart Association</span>. <em>Circulation</em> 2015;132:1435–1486. <a href="https://doi.org/10.1161/CIR.0000000000000296">https://doi.org/10.1161/CIR.0000000000000296</a>.</div>
+</div>
+<div id="ref-Liu2011" class="csl-entry" role="listitem">
+<div class="csl-left-margin">47. </div><div class="csl-right-inline"><span class="nocase">Liu C, Bayer A, Cosgrove SE, others</span>. Clinical practice guidelines by the <span class="nocase">Infectious Diseases Society of America</span> for the treatment of methicillin-resistant <span class="nocase">Staphylococcus aureus</span> infections in adults and children. <em>Clinical Infectious Diseases</em> 2011;52:e18–e55. <a href="https://doi.org/10.1093/cid/ciq146">https://doi.org/10.1093/cid/ciq146</a>.</div>
+</div>
+<div id="ref-Shrestha2016" class="csl-entry" role="listitem">
+<div class="csl-left-margin">48. </div><div class="csl-right-inline"><span class="nocase">Shrestha NK, Shah SY, Wang H, others</span>. Rifampin for surgically treated staphylococcal infective endocarditis: A propensity score-adjusted cohort study. <em>Annals of Thoracic Surgery</em> 2016;101:2243–2250. <a href="https://doi.org/10.1016/j.athoracsur.2015.11.015">https://doi.org/10.1016/j.athoracsur.2015.11.015</a>.</div>
+</div>
+<div id="ref-Ma2020" class="csl-entry" role="listitem">
+<div class="csl-left-margin">49. </div><div class="csl-right-inline">Ma H, Cheng J, Peng L, Gao Y, Zhang G, Luo Z. Adjunctive rifampin for the treatment of <span class="nocase">Staphylococcus aureus</span> bacteremia with deep infections: A meta-analysis. <em>PLoS ONE</em> 2020;15:e0230383. <a href="https://doi.org/10.1371/journal.pone.0230383">https://doi.org/10.1371/journal.pone.0230383</a>.</div>
+</div>
+<div id="ref-Forsblom2015" class="csl-entry" role="listitem">
+<div class="csl-left-margin">50. </div><div class="csl-right-inline">Forsblom E, Ruotsalainen E, Järvinen A. Improved outcome with early rifampicin combination treatment in methicillin-sensitive <span class="nocase">Staphylococcus aureus</span> bacteraemia with a deep infection focus—a retrospective cohort study. <em>PLoS ONE</em> 2015;10:e0122824. <a href="https://doi.org/10.1371/journal.pone.0122824">https://doi.org/10.1371/journal.pone.0122824</a>.</div>
+</div>
+<div id="ref-Karchmer1983" class="csl-entry" role="listitem">
+<div class="csl-left-margin">51. </div><div class="csl-right-inline">Karchmer AW, Archer GL, Dismukes WE. <span class="nocase">Staphylococcus epidermidis</span> causing prosthetic valve endocarditis: Microbiologic and clinical observations as guides to therapy. <em>Annals of Internal Medicine</em> 1983;98:447–455. <a href="https://doi.org/10.7326/0003-4819-98-4-447">https://doi.org/10.7326/0003-4819-98-4-447</a>.</div>
+</div>
+<div id="ref-Zimmerli1998" class="csl-entry" role="listitem">
+<div class="csl-left-margin">52. </div><div class="csl-right-inline">Zimmerli W, Widmer AF, Blatter M, Frei R, Ochsner PE. Role of rifampin for treatment of orthopedic implant-related staphylococcal infections: A randomized controlled trial. <span>Foreign-Body Infection (FBI) Study Group</span>. <em>JAMA</em> 1998;279:1537–1541. <a href="https://doi.org/10.1001/jama.279.19.1537">https://doi.org/10.1001/jama.279.19.1537</a>.</div>
+</div>
+<div id="ref-ElHelou2010" class="csl-entry" role="listitem">
+<div class="csl-left-margin">53. </div><div class="csl-right-inline"><span class="nocase">El Helou OC, Berbari EF, Lahr BD, others</span>. Efficacy and safety of rifampin containing regimen for staphylococcal prosthetic joint infections treated with debridement and retention. <em>European Journal of Clinical Microbiology and Infectious Diseases</em> 2010;29:961–967. <a href="https://doi.org/10.1007/s10096-010-0952-9">https://doi.org/10.1007/s10096-010-0952-9</a>.</div>
+</div>
+<div id="ref-Peel2013" class="csl-entry" role="listitem">
+<div class="csl-left-margin">54. </div><div class="csl-right-inline"><span class="nocase">Peel TN, Buising KL, Dowsey MM, others</span>. Outcome of debridement and retention in prosthetic joint infections by methicillin-resistant staphylococci, with special reference to rifampin and fusidic acid combination therapy. <em>Antimicrobial Agents and Chemotherapy</em> 2013;57:350–355. <a href="https://doi.org/10.1128/AAC.02061-12">https://doi.org/10.1128/AAC.02061-12</a>.</div>
+</div>
+<div id="ref-LoraTamayo2016" class="csl-entry" role="listitem">
+<div class="csl-left-margin">55. </div><div class="csl-right-inline"><span class="nocase">Lora-Tamayo J, Euba G, Cobo J, others</span>. Short- versus long-duration levofloxacin plus rifampicin for acute staphylococcal prosthetic joint infection managed with implant retention: A randomized clinical trial. <em>International Journal of Antimicrobial Agents</em> 2016;48:310–316. <a href="https://doi.org/10.1016/j.ijantimicag.2016.05.021">https://doi.org/10.1016/j.ijantimicag.2016.05.021</a>.</div>
+</div>
+<div id="ref-Beldman2021" class="csl-entry" role="listitem">
+<div class="csl-left-margin">56. </div><div class="csl-right-inline"><span class="nocase">Beldman M, Löwik C, Soriano A, others</span>. If, when, and how to use rifampin in acute staphylococcal periprosthetic joint infections, a multicentre observational study. <em>Clinical Infectious Diseases</em> 2021;73:1634–1641. <a href="https://doi.org/10.1093/cid/ciab426">https://doi.org/10.1093/cid/ciab426</a>.</div>
+</div>
+<div id="ref-Watanabe2011" class="csl-entry" role="listitem">
+<div class="csl-left-margin">57. </div><div class="csl-right-inline">Watanabe Y, Cui L, Katayama Y, Kozue K, Hiramatsu K. Impact of <span class="nocase">rpoB</span> mutations on reduced vancomycin susceptibility in <span class="nocase">Staphylococcus aureus</span>. <em>Journal of Clinical Microbiology</em> 2011;49:2680–2684. <a href="https://doi.org/10.1128/JCM.02144-10">https://doi.org/10.1128/JCM.02144-10</a>.</div>
+</div>
+<div id="ref-CATCH2016" class="csl-entry" role="listitem">
+<div class="csl-left-margin">58. </div><div class="csl-right-inline"><span class="nocase">Gilbert RE, Mok Q, Dwan K, others</span>. Impregnated central venous catheters for prevention of bloodstream infection in children (the <span>CATCH</span> trial): A randomised controlled trial. <em>Lancet</em> 2016;387:1732–1742. <a href="https://doi.org/10.1016/S0140-6736(16)00340-8">https://doi.org/10.1016/S0140-6736(16)00340-8</a>.</div>
+</div>
+<div id="ref-Tarakji2019" class="csl-entry" role="listitem">
+<div class="csl-left-margin">59. </div><div class="csl-right-inline"><span class="nocase">Tarakji KG, Mittal S, Kennergren C, others</span>. Antibacterial envelope to prevent cardiac implantable device infection. <em>New England Journal of Medicine</em> 2019;380:1895–1905. <a href="https://doi.org/10.1056/NEJMoa1901111">https://doi.org/10.1056/NEJMoa1901111</a>.</div>
+</div>
+<div id="ref-Bass2010" class="csl-entry" role="listitem">
+<div class="csl-left-margin">60. </div><div class="csl-right-inline"><span class="nocase">Bass NM, Mullen KD, Sanyal A, others</span>. Rifaximin treatment in hepatic encephalopathy. <em>New England Journal of Medicine</em> 2010;362:1071–1081. <a href="https://doi.org/10.1056/NEJMoa0907893">https://doi.org/10.1056/NEJMoa0907893</a>.</div>
+</div>
+<div id="ref-Paik2005" class="csl-entry" role="listitem">
+<div class="csl-left-margin">61. </div><div class="csl-right-inline"><span class="nocase">Paik YH, Lee KS, Han KH, others</span>. Comparison of rifaximin and lactulose for the treatment of hepatic encephalopathy: A prospective randomized study. <em>Yonsei Medical Journal</em> 2005;46:399–407. <a href="https://doi.org/10.3349/ymj.2005.46.3.399">https://doi.org/10.3349/ymj.2005.46.3.399</a>.</div>
+</div>
+<div id="ref-DuPont2005" class="csl-entry" role="listitem">
+<div class="csl-left-margin">62. </div><div class="csl-right-inline"><span class="nocase">DuPont HL, Jiang Z-D, Okhuysen PC, others</span>. A randomized, double-blind, placebo-controlled trial of rifaximin to prevent travelers’ diarrhea. <em>Annals of Internal Medicine</em> 2005;142:805–812. <a href="https://doi.org/10.7326/0003-4819-142-10-200505170-00005">https://doi.org/10.7326/0003-4819-142-10-200505170-00005</a>.</div>
+</div>
+<div id="ref-Garey2009" class="csl-entry" role="listitem">
+<div class="csl-left-margin">63. </div><div class="csl-right-inline">Garey KW, Jiang Z-D, Bellard A, DuPont HL. Rifaximin in treatment of recurrent <span class="nocase">Clostridium difficile</span>-associated diarrhea: An uncontrolled pilot study. <em>Journal of Clinical Gastroenterology</em> 2009;43:91–93. <a href="https://doi.org/10.1097/MCG.0b013e31814a4e97">https://doi.org/10.1097/MCG.0b013e31814a4e97</a>.</div>
+</div>
+<div id="ref-OConnor2008" class="csl-entry" role="listitem">
+<div class="csl-left-margin">64. </div><div class="csl-right-inline"><span class="nocase">O’Connor JR, Galang MA, Sambol SP, others</span>. Rifampin and rifaximin resistance in clinical isolates of <span class="nocase">Clostridium difficile</span>. <em>Antimicrobial Agents and Chemotherapy</em> 2008;52:2813–2817. <a href="https://doi.org/10.1128/AAC.00342-08">https://doi.org/10.1128/AAC.00342-08</a>.</div>
+</div>
+<div id="ref-Guslandi2011" class="csl-entry" role="listitem">
+<div class="csl-left-margin">65. </div><div class="csl-right-inline">Guslandi M. Rifaximin in the treatment of inflammatory bowel disease. <em>World Journal of Gastroenterology</em> 2011;17:4643–4646. <a href="https://doi.org/10.3748/wjg.v17.i42.4643">https://doi.org/10.3748/wjg.v17.i42.4643</a>.</div>
+</div>
+<div id="ref-TNP2092" class="csl-entry" role="listitem">
+<div class="csl-left-margin">66. </div><div class="csl-right-inline"><span class="nocase">Yuan H, Ma Q, Cui Y, others</span>. <span>TNP-2092</span>, a multitargeting rifamycin conjugate, in a mouse model of <span class="nocase">Clostridioides difficile</span> infection. <em>Antimicrobial Agents and Chemotherapy</em> 2020.</div>
+</div>
+<div id="ref-TNP2198" class="csl-entry" role="listitem">
+<div class="csl-left-margin">67. </div><div class="csl-right-inline"><span class="nocase">Ma Z, others</span>. <span>TNP-2198</span>, a dual-targeted rifamycin-nitroimidazole conjugate for microaerophilic and anaerobic bacterial infections. <em>Journal of Medicinal Chemistry</em> 2022.</div>
+</div>
+</div>
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="rifamycins-images/DMM_newlogo.png" class="slide-logo"></p>
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="rifamycins-slides_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="rifamycins-slides_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="rifamycins-slides_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="rifamycins-slides_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="rifamycins-slides_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="rifamycins-slides_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="rifamycins-slides_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="rifamycins-slides_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="rifamycins-slides_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="rifamycins-slides_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

@@ -1,0 +1,823 @@
+---
+title: "Rifamycins"
+subtitle: "Rifampin · Rifabutin · Rifapentine · Rifaximin"
+author: "Russell E. Lewis, Pharm.D."
+institute: "University of Padova — Infectious Diseases"
+date: today
+format:
+  revealjs:
+    theme: custom.scss
+    slide-number: true
+    transition: fade
+    logo: rifamycins-images/DMM_newlogo.png
+    title-slide-attributes:
+      data-background-color: "#0e1b2c"
+bibliography: rifamycins-references.bib
+csl: diagnostic-microbiology-and-infectious-disease.csl
+---
+
+# Introduction & History
+
+## Learning Objectives
+<br>
+
+- Explain how rifamycins inhibit bacterial RNA polymerase and why a single *rpoB* mutation matters clinically
+- Compare the pharmacokinetics and CYP induction of the four agents
+- Apply the rifamycins across TB, LTBI, NTM, leprosy, and staphylococcal/device infection
+- Decide **when to add rifampin — and when not to**
+- Position rifaximin among gut-selective indications
+
+::: {.notes}
+This is a postgraduate ID hour. The through-line I want residents to leave with: rifamycins are extraordinary sterilizing drugs undermined by a one-mutation resistance problem, so almost everything about how we use them is about combination therapy and choosing the right clinical niche — above all, biofilm and retained hardware.
+:::
+
+## A drug named after a crime film
+<br>
+
+- Isolated by Sensi and colleagues, Milan, **1959** — from *Amycolatopsis mediterranei*
+- Nicknamed "**Rififi**" after a popular French heist film → the class name "rifamycins"
+- **Rifamycin SV** used clinically in 1963; replaced by **rifampin (1968)** for better bioavailability and broader activity, especially vs *M. tuberculosis*
+
+::: aside
+[@Sensi1983; @Forrest2010]
+:::
+
+::: {.notes}
+The etymology is a nice hook, but the substantive point is that rifampin displaced the parent compound because of pharmacokinetics — a recurring theme in this class, where each newer agent is essentially a PK story.
+:::
+
+## The four approved rifamycins
+<br>
+
+- **Rifampin** — systemic workhorse; TB, staph/biofilm
+- **Rifabutin** — long half-life, weaker CYP induction; preferred with HIV protease inhibitors
+- **Rifapentine** — long half-life; enables once-weekly / short-course LTBI
+- **Rifaximin** — negligibly absorbed, gut-selective; HE, travelers' diarrhea, IBS
+
+::: {.notes}
+Frame these as one pharmacophore with four PK personalities. Everything downstream — dosing, interactions, indications — falls out of absorption, half-life, and enzyme induction.
+:::
+
+# Mechanism & Resistance
+
+## Ansamycin structure
+<br>
+
+- Ansamycin family (Latin *ansa*, "handle"): aliphatic bridge across a naphthoquinone core
+- Rifampin = 3-(4-methyl-1-piperazinyl)-iminomethyl derivative of rifamycin SV
+- Small structural tweaks → large PK differences across the four agents
+
+<!-- IMAGE NEEDED: redrawn ansamycin scaffold showing the "handle" bridging the naphthoquinone core -->
+
+::: {.notes}
+Keep this brief — one slide of medicinal chemistry so the class name and the later "hybrid conjugate" investigational drugs make sense.
+:::
+
+## Mechanism: inhibition of RNA polymerase
+<br>
+
+- Bind the **β-subunit** of DNA-dependent RNA polymerase (RNAP) deep in the DNA/RNA channel
+- Physically block elongation after the first/second nucleotide — the **steric-occlusion model** (crystal structure, *T. aquaticus*, 3.3 Å)
+- Bactericidal; blocks transcription initiation
+
+::: aside
+[@Campbell2001; @Artsimovitch2005]
+:::
+
+::: {.notes}
+The Campbell 2001 Cell structure is the definitive image. The allosteric model (Artsimovitch) is a nuance for a postgrad audience — mention it as an ongoing mechanistic debate, not settled fact.
+:::
+
+## Why the therapeutic index is favorable
+<br>
+
+- Eukaryotic RNA polymerases **do not** bind rifamycins
+- Human mitochondrial RNAP is insensitive at therapeutic concentrations
+- Selective toxicity despite targeting a fundamental cellular process
+
+::: {.notes}
+Residents sometimes assume a drug hitting "RNA synthesis" must be broadly toxic. The selectivity argument is worth making explicitly.
+:::
+
+## Resistance: the rpoB problem
+<br>
+
+- Spontaneous resistance at **10⁻⁸–10⁻⁹** per cell division
+- Mutations almost exclusively in **rpoB** → reduced RNAP affinity
+- >95% of resistant *M. tuberculosis* map to the 81-bp **RRDR** (codons 507–533)
+- Hot spots: codons **526** and **531** → high-level, cross-class resistance
+
+::: aside
+[@Ramaswamy1998; @Ohno1996]
+:::
+
+::: {.notes}
+Cross-resistance across rifampin/rifabutin/rifapentine at codons 526/531 is clinically important: you cannot rescue a high-level rifampin-resistant strain by switching to another rifamycin.
+:::
+
+## Alternative resistance mechanisms
+<br>
+
+- Impaired uptake — *Pseudomonas fluorescens*
+- ADP-ribosylation via **arr** gene — *M. smegmatis*; plasmid-borne *arr-2* in *Enterobacterales*, *P. aeruginosa*
+- Intrinsically less-susceptible enzyme — *Nocardia*
+
+::: aside
+[@Floss2005]
+:::
+
+::: {.notes}
+These explain intrinsic gram-negative resistance and why rifampin MICs for Enterobacterales are high — relevant when people propose rifampin "synergy" for MDR gram-negatives.
+:::
+
+## Clinical consequence: never monotherapy
+<br>
+
+- One point mutation → high-level resistance
+- High bacterial burden (cavitary TB, abscess, endocarditis, biofilm) guarantees a resistant subpopulation
+- **Rule:** rifamycins are almost always given in combination
+
+::: {.notes}
+This is the single most important operational takeaway of the lecture. Everything about staph and TB use flows from it. Say it plainly and come back to it.
+:::
+
+## Rapid molecular detection: Xpert MTB/RIF
+<br>
+
+- Heminested PCR probes the RRDR of *rpoB*
+- Detects *M. tuberculosis* **and** rifampin resistance in ~2 hours
+- WHO-recommended, including extrapulmonary disease
+- Confirm genotypic resistance with sequencing/culture (≥10% discrepant results)
+
+::: aside
+[@Helb2010; @Steingart2014; @Drobniewski2015]
+:::
+
+::: {.notes}
+Because rifampin resistance is a surrogate for MDR-TB, Xpert effectively screens for MDR at point of care — one of the highest-impact diagnostics in global TB. Note the false-positive caveat in low-prevalence settings.
+:::
+
+# Pharmacology & Interactions
+
+## Comparative pharmacokinetics
+<br>
+
+| Drug | Bioavail. (%) | t~½~ (hr) | Protein binding |
+|------|:---:|:---:|:---:|
+| Rifampin | 68 | 2–5 | 80% |
+| Rifabutin | 20 | 32–67 | 72–85% |
+| Rifapentine | 70 (food) | 14–18 | 98% |
+| Rifaximin | <0.4 | 1.8–4.8 | 62–68% |
+
+::: aside
+[@Burman2001; @Blaschke1996]
+:::
+
+::: {.notes}
+Half-life is the story: rifampin daily, rifabutin daily but forgiving, rifapentine weekly, rifaximin acts locally. Rifapentine must be taken with food (50% higher Cmax with a high-fat meal).
+:::
+
+## Autoinduction
+<br>
+
+- Rifampin and rifabutin **induce their own metabolism**
+- Repeated dosing ↓ AUC over the first ~1–2 weeks
+- Long post-antibiotic effect vs *M. tuberculosis* (68–75 h) for the systemic agents
+
+::: aside
+[@Burman2001]
+:::
+
+::: {.notes}
+Autoinduction matters for TDM interpretation and for why steady-state exposures are lower than a single-dose PK study would predict.
+:::
+
+## CYP3A4 induction — the core interaction
+<br>
+
+- Rifampin: most potent inducer of **CYP3A4** (also 1A2, 2C, 2D6, P-glycoprotein)
+- Maximal at ~1 week; resolves ~2 weeks after stopping
+- Lowers AUC/C~max~ of many co-administered drugs
+- **Induction rank: rifampin > rifapentine > rifabutin**
+
+::: aside
+[@Baciewicz2013]
+:::
+
+::: {.notes}
+The induction-potency rank is the single most useful interaction fact — it is the entire rationale for substituting rifabutin in ART. Emphasize it.
+:::
+
+## High-yield interacting drugs (1 of 2)
+<br>
+
+- **Anticoagulants:** warfarin, DOACs (apixaban, rivaroxaban, dabigatran)
+- **Antimicrobials:** azoles, clarithromycin, linezolid, HIV PIs/NNRTIs/integrase inhibitors, HCV DAAs, nirmatrelvir/ritonavir
+- **Immunosuppressants:** cyclosporine, tacrolimus, sirolimus
+
+::: aside
+[@Baciewicz2013; @DHHS_ARV]
+:::
+
+::: {.notes}
+Transplant and HIV are the two services that page you about rifampin. Flag tacrolimus/cyclosporine and the antiretrovirals as the ones that cause real harm through subtherapeutic exposure.
+:::
+
+## High-yield interacting drugs (2 of 2)
+<br>
+
+- **Endocrine:** oral contraceptives (counsel on failure), glucocorticoids, sulfonylureas, levothyroxine
+- **Cardiovascular:** calcium channel blockers, digoxin, quinidine
+- **CNS/analgesia:** methadone (withdrawal risk), phenytoin, benzodiazepines
+
+::: aside
+[@Baciewicz2013]
+:::
+
+::: {.notes}
+Two counseling points patients actually experience: contraceptive failure and methadone withdrawal. Both are common board and ward scenarios.
+:::
+
+## Managing interactions in practice
+<br>
+
+- Can't tolerate strong induction (e.g., HIV PI regimen)? → **switch to rifabutin**, dose-adjusted
+- Warn: red-orange urine, tears, sweat; permanent staining of soft contact lenses
+- Verify contraceptive backup and re-dose narrow-therapeutic-index drugs
+
+::: {.notes}
+The contact-lens and body-fluid discoloration point reassures patients and improves adherence. The rifabutin substitution is the actionable clinical move.
+:::
+
+# The Four Agents
+
+## Rifampin — pharmacokinetics
+<br>
+
+- 600 mg daily (10–20 mg/kg children); only rifamycin available **IV**
+- Rapid, complete absorption — better on an empty stomach
+- Wide distribution incl. CSF and bone; crosses placenta / breast milk
+- Biliary elimination; **no renal dose adjustment**; adjust in severe hepatic impairment
+
+::: aside
+[@Burman2001]
+:::
+
+::: {.notes}
+"IV available" and "no renal adjustment" are the two facts that come up on rounds. CSF penetration underpins its use in some CNS and shunt infections.
+:::
+
+## Rifampin — flu-like syndrome & renal toxicity
+<br>
+
+- Flu-like syndrome (fever, myalgia, headache): immune-complex mediated, worse with **intermittent** dosing → switch to daily
+- Acute interstitial nephritis with antirifampin antibodies — usually reversible on stopping
+- Immune-mediated thrombocytopenia/hemolysis; rare DIC
+
+::: aside
+[@Martinez1999; @DeVriese1998]
+:::
+
+::: {.notes}
+The pattern to teach: rifampin's immune-mediated reactions cluster with intermittent/re-exposure dosing. Daily dosing is protective — counterintuitive but important.
+:::
+
+## Rifampin — hepatotoxicity
+<br>
+
+- Usually mild, **cholestatic**; benign early hyperbilirubinemia
+- Monotherapy hepatotoxicity ~**1.1%**; rises with isoniazid
+- Rifampin + pyrazinamide for LTBI → severe hepatitis: **abandoned**
+- *SLCO1B1* \*15 haplotype predisposes
+
+::: aside
+[@Yew2006; @MMWR2001Hepatic; @Li2012]
+:::
+
+::: {.notes}
+The RIF+PZA LTBI story is a cautionary tale worth telling: an attractive short regimen abandoned after fatal liver injury. It also motivates the modern rifapentine-based short regimens.
+:::
+
+## Rifampin — antimicrobial spectrum
+<br>
+
+- Most potent vs **gram-positives**: *S. aureus*, CoNS, streptococci, *Listeria*, *C. difficile*
+- Intracellular pathogens: *Chlamydia*, *Legionella*, *Brucella*, *Bartonella*
+- Mycobacteria: *M. tuberculosis*, MAC, *M. kansasii*, *M. marinum*
+- Gram-negatives: intrinsically high MICs
+
+::: aside
+[@Thornsberry1983]
+:::
+
+::: {.notes}
+Contrast the sub-0.015 µg/mL staphylococcal MICs with the ≥8–32 µg/mL Enterobacterales MICs on the next slide — that four-log gap explains the entire clinical positioning.
+:::
+
+## Rifampin MICs — representative organisms
+<br>
+
+| Organism | MIC~50~ (µg/mL) |
+|----------|:---:|
+| *Staphylococcus aureus* | 0.015 |
+| *Streptococcus pneumoniae* | 0.12 |
+| *Neisseria meningitidis* | 0.03 |
+| *M. tuberculosis* | 0.25 |
+| *Escherichia coli* | 8 |
+| *Klebsiella pneumoniae* | 32 |
+| *Pseudomonas aeruginosa* | 32 |
+
+::: aside
+[@Thornsberry1983]
+:::
+
+::: {.notes}
+Let the numbers make the argument: exquisite gram-positive potency, poor gram-negative activity. This is why rifampin is a staph/mycobacterial drug, not a gram-negative one.
+:::
+
+## Rifabutin
+<br>
+
+- Spiropiperidyl analogue; long half-life (~35 h), once daily
+- **Weaker CYP3A4 inducer** than rifampin → preferred with HIV protease inhibitors
+- Dose ↓ to 150 mg with ritonavir-boosted PI; ↑ to 450–600 mg with efavirenz
+- Reduce dose if CrCl <30 mL/min
+
+::: aside
+[@Blaschke1996; @Burman2001]
+:::
+
+::: {.notes}
+The bidirectional dosing (down with PIs, up with efavirenz) trips people up. Anchor it: PIs raise rifabutin (lower the dose); efavirenz lowers rifabutin (raise the dose).
+:::
+
+## Rifabutin — distinctive toxicity
+<br>
+
+- **Uveitis** (dose- and interaction-dependent; may mimic endophthalmitis with hypopyon)
+- Leukopenia, polyarthralgias
+- Active vs *M. tuberculosis*, MAC, *H. pylori* (rescue therapy)
+
+::: aside
+[@Griffith1995; @Graham2020]
+:::
+
+::: {.notes}
+Uveitis with clarithromycin or fluconazole co-administration (which raise rifabutin levels) is the classic exam association — anterior chamber, responds to steroids/cycloplegics.
+:::
+
+## Rifapentine
+<br>
+
+- Cyclopentyl rifamycin; more potent vs *M. tuberculosis* (MIC 0.06 vs 0.25)
+- Long half-life (14–18 h) → **once-weekly / short-course** regimens
+- Take with food; induces CYP3A4/2C
+- Hyperuricemia up to 21%; activity essentially limited to *M. tuberculosis*
+
+::: aside
+[@Heifets1990; @Jarvis1998]
+:::
+
+::: {.notes}
+Rifapentine exists to solve the adherence problem of long TB therapy. Its narrow spectrum (basically TB only) means you will not see it outside mycobacterial disease.
+:::
+
+## Rifaximin
+<br>
+
+- Extra C-3/C-4 ring; **<0.01% absorbed**, ~97% recovered in stool
+- Very high fecal concentrations (~8000 µg/mL); negligible systemic interactions
+- Active vs enteric pathogens + *C. difficile*; modulates microbiome / NF-κB
+- No dose adjustment in cirrhosis
+
+::: aside
+[@Koo2010; @DuPont2011]
+:::
+
+::: {.notes}
+Rifaximin breaks the CYP-interaction rule precisely because it never reaches the systemic circulation. That is the whole design. Keep it mentally separate from the systemic three.
+:::
+
+# Tuberculosis & NTM
+
+## Rifampin: cornerstone of TB therapy
+<br>
+
+- Adding rifampin cut TB treatment from **18 → 9 months**
+- Best **sterilizing activity** among first-line drugs (kills dormant persisters)
+- Penetrates cavitary lesions; cheap, globally available, safe
+- First-line rifamycin for TB
+
+::: aside
+[@Goble1993; @Alfarisi2017]
+:::
+
+::: {.notes}
+Sterilizing activity — killing the slowly/non-replicating persisters — is the property that shortens therapy and prevents relapse. It is distinct from early bactericidal activity.
+:::
+
+## Is 10 mg/kg the right dose?
+<br>
+
+- Killing is **concentration-dependent**, best predicted by **AUC/MIC**
+- 10 mg/kg sits at the low end of a steep dose-response curve
+- Higher doses (up to 35 mg/kg) safe; faster culture conversion
+- Prospect: shorter regimens with optimized dosing
+
+::: aside
+[@Gumbo2007; @Jayaram2003; @Boeree2015; @Boeree2017]
+:::
+
+::: {.notes}
+This is an active area — the historical dose was set by cost and PK assumptions from the 1970s, not efficacy. High-dose rifampin trials (PanACEA, etc.) are reshaping practice. Good discussion point for residents.
+:::
+
+## Rifapentine in active TB
+<br>
+
+- Once-weekly rifapentine–isoniazid (continuation phase): relapse + **acquired rifamycin monoresistance** in HIV
+- → Do **not** use intermittent rifapentine in HIV
+- Higher-dose daily rifapentine under study to shorten therapy
+
+::: aside
+[@Benator2002; @Jindani2014; @Dooley2012]
+:::
+
+::: {.notes}
+The monoresistance signal in HIV-positive patients on intermittent rifapentine is a key safety lesson and the reason intermittent dosing is contraindicated in that group.
+:::
+
+## Rifabutin in TB with HIV
+<br>
+
+- Efficacy similar to rifampin
+- **Weaker enzyme induction** → preferred with protease-inhibitor ART
+- Rifampin remains preferred with **efavirenz**-based ART
+
+::: aside
+[@Burman2001; @Baciewicz2013]
+:::
+
+::: {.notes}
+The decision rule: PI-based ART → rifabutin; efavirenz-based ART → rifampin. This maps directly onto the CYP induction hierarchy taught earlier.
+:::
+
+## LTBI: shorter rifamycin regimens
+<br>
+
+- 4 months daily **rifampin**
+- 3–4 months daily **isoniazid + rifampin**
+- 12 weeks weekly **isoniazid + rifapentine (3HP)**
+- Shorter regimens → better completion, less hepatotoxicity than 9 months INH
+
+::: aside
+[@Pease2017]
+:::
+
+::: {.notes}
+The field has decisively moved away from 9 months of isoniazid. Completion rate — not just efficacy — is the metric that changed practice.
+:::
+
+## 3HP — weekly rifapentine + isoniazid
+<br>
+
+- 12 once-weekly directly-observed doses
+- As effective as 9 months daily isoniazid
+- Higher completion, fewer severe adverse events
+- Now an equal alternative for healthy patients ≥12 y
+
+::: aside
+[@Sterling2011]
+:::
+
+::: {.notes}
+The PREVENT TB trial (Sterling, NEJM 2011) is the landmark. Rifapentine's long half-life is what makes weekly dosing pharmacologically possible.
+:::
+
+## 1HP — one month for people with HIV
+<br>
+
+- Daily rifapentine + isoniazid for **1 month**
+- Noninferior to 9 months isoniazid in HIV
+- Higher completion (97% vs 90%)
+
+::: aside
+[@Swindells2019]
+:::
+
+::: {.notes}
+The BRIEF-TB / A5279 trial (Swindells, NEJM 2019). For a population where adherence is the central obstacle, one month is transformative.
+:::
+
+## Mycobacterium avium complex
+<br>
+
+- Pulmonary MAC: macrolide + **rifampin (or rifabutin)** + ethambutol
+- Rifabutin favored with significant drug interactions
+- Disseminated AIDS-MAC: adding rifabutin improved survival, fewer relapses
+
+::: aside
+[@Griffith2007; @Benson2003]
+:::
+
+::: {.notes}
+Note the rifampin–macrolide interaction lowers macrolide levels — a real pharmacologic tension in the recommended regimen. Rifabutin dosing must account for the macrolide.
+:::
+
+## M. kansasii and leprosy
+<br>
+
+- ***M. kansasii*:** rifampin + isoniazid + ethambutol; excellent response, low relapse
+- **Leprosy:** rifampin rapidly bactericidal vs *M. leprae*
+  - + dapsone (paucibacillary); + dapsone + clofazimine (multibacillary)
+  - single-dose rifampin reduces incidence in contacts — **never monotherapy**
+
+::: aside
+[@Griffith2007; @Bullock1983; @Moet2008]
+:::
+
+::: {.notes}
+Leprosy reinforces the monotherapy rule in a completely different organism — a nice way to generalize the rpoB lesson beyond TB and staph.
+:::
+
+# Staphylococcal & Device Infections
+
+## Why rifampin is attractive against staph
+<br>
+
+- Exquisite in-vitro potency vs *S. aureus* / CoNS (MIC ~0.015)
+- Kills **metabolically dormant** organisms
+- Penetrates and disrupts **biofilm**
+- Accumulates in neutrophils; active in acidic biofilm microenvironment
+
+::: aside
+[@Mandell1983; @Costerton1999]
+:::
+
+::: {.notes}
+These four properties are exactly what you want against a foreign body. Hold that thought — the entire clinical debate is about whether those in-vitro advantages translate, and where.
+:::
+
+## …but monotherapy fails
+<br>
+
+- High-burden staph (abscess, endocarditis, biofilm) selects resistance rapidly
+- Rifampin is **always** a combination agent for staph
+- The clinical question is never "rifampin?" but "**rifampin, with what, and when?**"
+
+::: aside
+[@Sande1975]
+:::
+
+::: {.notes}
+Reframe the decision. Residents ask "should I add rifampin?" The better question embeds combination, timing (after source control), and susceptibility.
+:::
+
+## Native valve endocarditis & uncomplicated bacteremia
+<br>
+
+- Adding rifampin does **not** improve outcomes
+- Selects resistance; potential harm
+- IDSA / AHA: recommend **against** rifampin in staphylococcal **NVE**
+
+::: aside
+[@Baddour2015; @Liu2011]
+:::
+
+::: {.notes}
+This is where trainees most often over-reach. Make the "against" recommendation explicit and tie it to resistance selection in a high-burden, no-hardware setting.
+:::
+
+## S. aureus bacteremia — the evidence
+<br>
+
+- Surgically treated endocarditis: adjunctive rifampin → **no** survival/reoperation benefit
+- Meta-analysis: insufficient evidence for adjunctive rifampin in SAB
+- Retrospective signal of benefit only with a **deep focus**
+
+::: aside
+[@Shrestha2016; @Ma2020; @Forsblom2015]
+:::
+
+::: {.notes}
+The ARREST trial (not in this chapter) reinforced no benefit and more interactions/resistance. The honest summary: outside retained hardware, the data do not support routine rifampin in SAB.
+:::
+
+## Prosthetic valve endocarditis
+<br>
+
+- Staphylococcal **PVE**: rifampin part of triple therapy
+- e.g., vancomycin + rifampin + gentamicin
+- Rationale: prosthetic material = biofilm
+
+::: aside
+[@Karchmer1983; @Baddour2015]
+:::
+
+::: {.notes}
+PVE is the endocarditis setting where guidelines *do* include rifampin — the difference from NVE is the prosthetic (biofilm) surface. Start rifampin after bacteremia clears.
+:::
+
+## Landmark: rifampin in orthopedic device infection
+<br>
+
+- **Zimmerli FBI Study Group RCT (JAMA 1998)**
+- Ciprofloxacin ± rifampin for stable implant-related staph infection, debridement + retention
+- Rifampin arm: markedly higher cure
+- Established rifampin's genuine niche: **biofilm on retained hardware**
+
+::: aside
+[@Zimmerli1998]
+:::
+
+::: {.notes}
+This is the positive counterpoint to the endocarditis slides — the one high-quality RCT showing rifampin combination works, and it is specifically device-associated infection managed with retention.
+:::
+
+## PJI — cohorts, duration, and nuance
+<br>
+
+- Cohorts support rifampin combinations in PJI with **debridement + implant retention**
+- Randomized data on **levofloxacin + rifampin duration**
+- Large multicentre study: refined *if, when, how* to add rifampin in acute PJI
+
+::: aside
+[@ElHelou2010; @Peel2013; @LoraTamayo2016; @Beldman2021]
+:::
+
+::: {.notes}
+The Beldman 2021 study is worth flagging: it tempers enthusiasm, showing timing and companion-drug choice matter and that indiscriminate early rifampin can harm. Nuance, not reflex.
+:::
+
+## When to add rifampin — and when not to
+<br>
+
+- **Add:** retained prosthetic material / biofilm (PJI with retention, PVE), susceptible isolate, **after** source control and bacteremia clearance
+- **Avoid:** uncomplicated SAB, native valve endocarditis
+- **Never:** start into a high-burden bacteremia before source control
+
+::: {.notes}
+If residents remember one slide from the staph section, make it this one. The timing rule — wait for blood cultures to clear before adding rifampin — prevents the resistance that ruins the drug.
+:::
+
+## VISA/VRSA and rpoB
+<br>
+
+- *rpoB* mutations reducing vancomycin susceptibility often confer **rifampin resistance**
+- Links vancomycin exposure ↔ rifampin resistance in *S. aureus*
+- Rifampin active vs 92% of VRSA but only 51% of VISA in one series
+
+::: aside
+[@Watanabe2011]
+:::
+
+::: {.notes}
+A mechanistic curiosity with practical weight: the same cell-wall-thickening/rpoB biology couples the two resistances, so don't assume rifampin susceptibility in reduced-vancomycin-susceptibility strains.
+:::
+
+## Prevention: chemoprophylaxis & devices
+<br>
+
+- Meningococcal contacts: rifampin 600 mg BID ×2 d (resistance emerges — ceftriaxone/cipro often preferred)
+- *H. influenzae* type b contacts: rifampin ×4 d
+- **CATCH trial:** minocycline-rifampin catheters ↓ bloodstream infection 57%
+- **WRAP-IT:** antibacterial envelope ↓ major CIED infection (HR 0.60)
+
+::: aside
+[@CATCH2016; @Tarakji2019]
+:::
+
+::: {.notes}
+Device prevention is a growing, evidence-backed use — WRAP-IT (Tarakji, NEJM 2019) is a large RCT. Contrast with the shakier therapeutic data, and note resistance concerns limit prophylactic systemic use.
+:::
+
+# Rifaximin & GI Indications
+
+## Rifaximin: gut-selective rifamycin
+<br>
+
+- Negligible absorption → acts in the lumen
+- Active vs enteric pathogens and *C. difficile*
+- Microbiome modulation + anti-inflammatory (NF-κB)
+- Few systemic interactions — reserve for GI indications
+
+::: aside
+[@Koo2010; @DuPont2011]
+:::
+
+::: {.notes}
+Set up the indication slides: everything rifaximin does well is downstream of "it stays in the gut." That is both its strength and the boundary of its usefulness.
+:::
+
+## Hepatic encephalopathy
+<br>
+
+- Rifaximin 550 mg BID — **approved for prevention**
+- Fewer breakthrough HE episodes; ↓ HE-related hospitalization vs placebo
+- ≥ as effective as lactulose, better tolerated
+
+::: aside
+[@Bass2010; @Paik2005]
+:::
+
+::: {.notes}
+The Bass 2010 NEJM trial is the pivotal evidence. Mechanism: fewer ammonia-producing gut organisms. Usually added to lactulose rather than replacing it.
+:::
+
+## Travelers' diarrhea
+<br>
+
+- Shortens time to symptom resolution (non-invasive pathogens)
+- ~72% effective for chemoprophylaxis
+- Fluoroquinolones preferred for prophylaxis (broader, invasive coverage)
+
+::: aside
+[@DuPont2005]
+:::
+
+::: {.notes}
+Rifaximin treats/prevents non-invasive (ETEC) diarrhea; it does not cover invasive/febrile dysentery, which is the limitation clinicians must remember.
+:::
+
+## Recurrent C. difficile infection
+<br>
+
+- "Rifaximin chaser" after vancomycin for recurrent CDI (response up to 83%)
+- Resistance is a real concern — high MICs, disproportionately BI/NAP1/027
+- Not first-line; a niche adjunct
+
+::: aside
+[@Garey2009; @OConnor2008]
+:::
+
+::: {.notes}
+Frame honestly: small studies, resistance risk. In the fidaxomicin/FMT era, rifaximin is a limited option, but residents will still see it used as a chaser.
+:::
+
+## IBS and inflammatory bowel disease
+<br>
+
+- FDA-approved for **IBS without constipation** (modest benefit)
+- Possible steroid-sparing role in IBD (UC, Crohn, pouchitis)
+- Benefit attributed to microbiome + anti-inflammatory effects
+
+::: aside
+[@Guslandi2011]
+:::
+
+::: {.notes}
+IBS is the highest-volume real-world use of rifaximin. The IBD data are softer — present as emerging rather than established.
+:::
+
+## Rifaximin resistance & the microbiome
+<br>
+
+- Rifampin-resistant staphylococci recovered from skin post-therapy (persist ≤9 wk)
+- Rifaximin-resistant *E. coli* selected in the gut
+- Reserve empirical/repeat courses
+
+::: {.notes}
+Even a "non-systemic" rifamycin selects class resistance. This closes the loop with the rpoB theme: no rifamycin is exempt from the single-mutation problem.
+:::
+
+# Future Directions & Summary
+
+## Rifamycins in development
+<br>
+
+- Aerosolized rifampin (dry powders, liposomes, + colistin) for pulmonary delivery
+- Rifamycin-eluting orthopedic scaffolds / PMMA
+- Colon-targeted **rifamycin SV MMX**
+- Multi-targeting conjugates to beat single-mutation resistance: **TNP-2092**, **TNP-2198**
+
+::: aside
+[@TNP2092; @TNP2198]
+:::
+
+::: {.notes}
+The conjugates are the conceptually interesting frontier: by hitting RNAP plus DNA gyrase/topoisomerase (TNP-2092) or adding a nitroimidazole (TNP-2198), they raise the genetic barrier that a single rpoB mutation otherwise lowers. Full citations for these two flagged for verification.
+:::
+
+## Key take-home points
+<br>
+
+1. Inhibit prokaryotic RNAP (*rpoB*); one mutation → high-level resistance → **never monotherapy**
+2. **CYP3A4** induction: rifampin > rifapentine > rifabutin; rifabutin is the ART workaround
+3. TB: rifampin best sterilizer; rifapentine enables 3HP/1HP; rifabutin with PIs
+4. Staph: rifampin's niche is **retained hardware/biofilm** — add after source control; avoid in uncomplicated SAB/NVE
+5. **Rifaximin** = gut-selective: HE, travelers' diarrhea, IBS, recurrent CDI
+
+::: {.notes}
+Recap deliberately mirrors the objectives slide. If they leave with points 1 and 4, the hour succeeded.
+:::
+
+## Questions & Discussion
+<br>
+
+Russell E. Lewis, Pharm.D. — University of Padova
+
+*Rifampin · Rifabutin · Rifapentine · Rifaximin*
+
+::: {.notes}
+Open the floor. Likely discussion: high-dose rifampin trials, the ARREST trial and adjunctive rifampin in SAB, and practical ART co-management with rifabutin.
+:::
