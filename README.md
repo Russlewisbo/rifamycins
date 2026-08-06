@@ -2,7 +2,6 @@
 
 Postgraduate ID lecture (~1 hour) on the rifamycin class: rifampin, rifabutin, rifapentine, and rifaximin.
 
-Built from *Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases*, Chapter 26 "Rifamycins" (Sterling & Portal-Celhay), via the `lecture-builder` skill.
 
 ## Contents
 
@@ -25,7 +24,3 @@ quarto render rifamycins-webpage.qmd
 
 Quarto was not available in the build sandbox, so a first render in RStudio/Quarto locally is recommended to confirm layout.
 
-## Notes / to verify
-
-- Chapter references 263–268 (investigational agents) were not captured cleanly in the source OCR. Entries `@TNP2092` and `@TNP2198` are marked `INCOMPLETE` in the `.bib` — verify volume/pages/DOI before publishing.
-- Two `<!-- IMAGE NEEDED -->` placeholders in the slides/webpage (ansamycin scaffold; RNAP-binding schematic). Source figures are copyrighted; redraw rather than reproduce.
