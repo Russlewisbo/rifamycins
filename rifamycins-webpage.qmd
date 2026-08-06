@@ -13,11 +13,16 @@ bibliography: rifamycins-references.bib
 csl: diagnostic-microbiology-and-infectious-disease.csl
 ---
 
+[Link to HTML slides]( ) <br>
+[Link to recorded presentation]()
+
 ## Overview
 
 The rifamycin class of antibiotics acts through inhibition of RNA synthesis by high-affinity binding to the DNA-dependent RNA polymerase of prokaryotes. Spontaneous resistance develops readily, which limits use as monotherapy. Although the rifamycins differ in their pharmacokinetics and adverse reactions, most share significant drug interactions, especially through induction of CYP3A4. In addition to the traditional uses in mycobacterial and staphylococcal infections, newer indications for both rifampin and unique rifamycins such as rifaximin have emerged, including the treatment of gastrointestinal infections and disorders [@Forrest2010; @Koo2010].
 
 The rifamycins were isolated by Sensi and colleagues at the Dow-Lepetit Research Laboratories in Milan in 1959 as a mixture of five substances from fermentation cultures of the organism now classified as *Amycolatopsis mediterranei*. The nickname for the drug, "Rififi," was taken from the title of a French crime film popular at the time and became the root of the class name. Rifamycin SV, the first rifamycin used clinically in 1963, was replaced by rifampicin (rifampin) in 1968 because of its improved bioavailability and greater activity against gram-positive and gram-negative bacteria and, especially, *Mycobacterium tuberculosis* [@Sensi1983; @Forrest2010].
+
+![The 1955 French crime film that gave the rifamycin class its nickname, "Rififi."](rifamycins-images/riffi.png){#fig-riffi fig-align="center" width="220"}
 
 ::: {.callout-note}
 ## The four approved rifamycins
@@ -26,9 +31,13 @@ The rifamycins were isolated by Sensi and colleagues at the Dow-Lepetit Research
 
 ## Structure and Mechanism of Action
 
-The rifamycins belong to the ansamycin family (from the Latin *ansa*, "handle") because of their basket-like structure: an aliphatic chain bridging two ends of a naphthoquinone core. Rifampin is the 3-(4-methyl-1-piperazinyl)-iminomethyl derivative of rifamycin SV.
+The rifamycins belong to the ansamycin family (from the Latin *ansa*, "handle") because of their basket-like structure: an aliphatic chain bridging two ends of a naphthoquinone core. Rifampin is the 3-(4-methyl-1-piperazinyl)-iminomethyl derivative of rifamycin SV. Small structural modifications to this shared scaffold produce the four clinically used agents shown in @fig-structures, with disproportionately large differences in pharmacokinetics.
+
+![Structures of the four major rifamycins. (A) Rifampin. (B) Rifabutin. (C) Rifapentine. (D) Rifaximin.](rifamycins-images/rifamycins.png){#fig-structures fig-align="center" width="500"}
 
 The antibacterial action of the rifamycins results from high-affinity binding to the DNA-dependent RNA polymerase of prokaryotes (RNAP) and inhibition of RNA synthesis. The crystal structure of the *Thermus aquaticus* core RNAP in complex with rifampin (3.3 Å resolution) showed that rifampin binds a site on the β-subunit deep within the DNA/RNA channel, in a position that physically hinders the growing oligonucleotide chain after the first or second elongation step. This "steric-occlusion model" holds that rifamycins sterically block synthesis of any RNA product longer than 2–3 nucleotides [@Campbell2001]. An alternative allosteric model proposed by Artsimovitch and colleagues holds that rifamycins additionally disfavor binding of the Mg²⁺ ion in the active site, slowing catalysis and facilitating dissociation of short transcripts [@Artsimovitch2005]; this allosteric mechanism remains controversial [@Mosaei2008].
+
+![Rifampin binds the RNA polymerase β-subunit within the DNA/RNA channel, physically blocking elongation of the nascent RNA transcript beyond 2–3 nucleotides.](rifamycins-images/rifamycin_MOA.png){#fig-moa fig-align="center" width="650"}
 
 ::: {.callout-important}
 ## Why selectivity is high
@@ -146,9 +155,13 @@ Rifaximin has an additional ring linking the C-3 and C-4 positions. Oral absorpt
 
 Since its introduction, rifampin has been a cornerstone of TB therapy: adding rifampin to combination regimens reduced treatment duration from 18 to 9 months, and rifampin-resistant disease requires longer treatment with higher failure rates [@Goble1993]. Rifampin has the most potent **sterilizing activity** among first-line agents (the ability to kill dormant persisters) and penetrates cavitary lesions well; it remains the first-line rifamycin because it is inexpensive, globally available, and has a long safety record [@Alfarisi2017]. International guidelines dose it at 10 mg/kg (max 600 mg), but these targets rest on historical PK/toxicity/cost arguments that newer data have challenged.
 
-Rifampin killing of *M. tuberculosis* is concentration-dependent and correlates with the AUC/MIC ratio [@Gumbo2007; @Jayaram2003]. Early-bactericidal-activity and dose-ranging studies show that **higher doses** (up to 35 mg/kg) are safe and shorten time to culture conversion, raising the prospect of shorter regimens [@Boeree2015; @Boeree2017].
+Rifampin killing of *M. tuberculosis* is concentration-dependent and correlates with the AUC/MIC ratio [@Gumbo2007; @Jayaram2003]. Early-bactericidal-activity and dose-ranging studies show that **higher doses** (up to 35 mg/kg) are safe and shorten time to culture conversion, raising the prospect of shorter regimens [@Boeree2015; @Boeree2017]. Translating this into practice has proven harder than the pharmacology suggested: the phase 3 **RIFASHORT** trial tested 4-month regimens using flat doses of 1200 mg and 1800 mg daily against the standard 6-month regimen. Both experimental doses were safe, without dose-limiting toxicity, but neither met the prespecified noninferiority margin [@Jindani2023RIFASHORT]. WHO is actively reconsidering global rifampin dosing guidance, and there is not yet consensus on whether the standard starting dose should change.
 
 Alternatives to rifampin in TB: **rifapentine** enables intermittent therapy, but once-weekly rifapentine-isoniazid in the continuation phase was associated with relapse and acquired rifamycin monoresistance in HIV-positive patients, so it should not be used intermittently in HIV [@Benator2002]; higher-dose daily rifapentine is under study to shorten therapy [@Jindani2014; @Dooley2012]. **Rifabutin** has similar efficacy to rifampin and is preferred in HIV coinfection on protease-inhibitor–based ART because of its weaker enzyme induction.
+
+### Special populations and dosing individualization
+
+Standard rifampin dosing was derived largely from 1970s-era manufacturing cost and supply constraints rather than a defined efficacy ceiling, and several populations illustrate where that standard dose may be mismatched to need. In **tuberculous meningitis**, rifampin achieves cerebrospinal fluid concentrations well below plasma levels, and higher doses were hypothesized to improve outcomes. The **HARVEST trial** — a randomized, placebo-controlled study of 499 adults across Indonesia, South Africa, and Uganda — found that high-dose oral rifampicin (35 mg/kg for 8 weeks) did **not** improve 6-month survival compared with standard dosing (10 mg/kg); mortality was numerically higher, not lower, in the high-dose arm (44.6% vs. 40.7%; hazard ratio 1.17, 95% CI 0.89–1.54) [@Meya2025HARVEST]. For ***M. avium* complex**, the MIC distribution is right-shifted by roughly two dilutions relative to *M. tuberculosis*, raising the question — not yet guideline-endorsed — of whether standard TB dosing is adequate for MAC disease. Malabsorption from bariatric surgery, HIV enteropathy, or interacting medications can also produce unexpectedly low rifampin exposure; paired plasma sampling (e.g., at 2 and 6 hours, or 3 and 7 hours post-dose) via therapeutic drug monitoring can identify and help correct this in individual patients, though escalation thresholds are not standardized across programs.
 
 ### Latent tuberculosis infection
 
@@ -166,19 +179,30 @@ Rifampin is rapidly bactericidal against *M. leprae* and is central to WHO multi
 
 Rifampin is potently bactericidal in vitro against *S. aureus* and CoNS and, uniquely, is active against metabolically dormant organisms and penetrates biofilm — the pharmacologic basis for its use in device-associated infection [@Mandell1983; @Costerton1999]. But monotherapy fails rapidly through resistance, so rifampin is always used in combination [@Sande1975].
 
+![Rifampin combines exquisite in-vitro potency against *S. aureus* and CoNS with activity against metabolically dormant organisms, biofilm penetration and disruption, and neutrophil accumulation that retains activity in acidic, inflamed microenvironments.](rifamycins-images/rifampin_SA.png){#fig-rifampin-sa fig-align="center" width="700"}
+
+::: {.callout-warning}
+## A caveat on in-vitro synergy data
+Much of the mechanistic case above — and combination-therapy rationales generally — rests on in-vitro synergy testing (time-kill, checkerboard, or gradient-diffusion methods). These methods are not standardized by CLSI, show only modest agreement with one another, and no randomized controlled trial has shown that synergy testing predicts clinical outcome in staphylococcal infection [@Doern2014]. In-vitro synergy also does not reliably predict in-vivo benefit — the reverse (antagonism in vivo despite in-vitro synergy, or vice versa) has been observed. The mechanistic rationale is worth understanding, but should not be mistaken for bedside-validated evidence.
+:::
+
 For **native valve endocarditis** and uncomplicated *S. aureus* bacteremia, adding rifampin has not improved outcomes and selects for resistance; IDSA and AHA guidelines recommend **against** routine rifampin in staphylococcal NVE [@Baddour2015; @Liu2011]. In surgically treated staphylococcal endocarditis, adjunctive rifampin conferred no reoperation-free or survival benefit [@Shrestha2016], and a meta-analysis found insufficient evidence to support adjunctive rifampin for *S. aureus* bacteremia [@Ma2020] — though a retrospective cohort suggested benefit when a deep focus is present [@Forsblom2015].
 
-For **prosthetic valve endocarditis** caused by staphylococci, rifampin remains part of triple therapy (e.g., vancomycin + rifampin + gentamicin) [@Karchmer1983].
+For **prosthetic valve endocarditis** caused by staphylococci, rifampin remains part of triple therapy (e.g., vancomycin + rifampin + gentamicin) [@Karchmer1983]. This recommendation, however, rests on limited evidence: it traces to a single observational study from the 1980s that was never confirmed by a randomized trial. A 2022 systematic review and meta-analysis of the four available studies found **no clinical benefit** of adjunctive rifampin (or gentamicin) in staphylococcal PVE, and the authors called for the guideline recommendation to be critically reevaluated pending a proper trial [@Ryder2022]. In practice, many clinicians report using adjunctive rifampin in PVE "with little conviction" and readily substitute another approach when drug interactions or intolerance provide a reason to.
 
 ::: {.callout-tip}
 ## Clinical Pearl — where rifampin genuinely helps: orthopedic device infection
 The landmark Zimmerli FBI Study Group RCT showed that adding rifampin to ciprofloxacin for stable orthopedic implant-related staphylococcal infection managed with debridement and retention markedly improved cure [@Zimmerli1998]. Cohort data support rifampin combinations in prosthetic joint infection managed with debridement and implant retention [@ElHelou2010; @Peel2013], and a randomized trial addressed the optimal duration of levofloxacin + rifampin [@LoraTamayo2016]. A large multicentre observational study refined *if, when, and how* to add rifampin in acute staphylococcal PJI [@Beldman2021]. The unifying principle: rifampin's value is greatest against **retained hardware and biofilm**, not free-floating bacteremia.
 :::
 
+When rifampin is used for staphylococcal bone and joint infection, the multicentre French **EVRIOS** trial (543 patients) found that a simple 10 mg/kg daily dose was **noninferior** to 20 mg/kg, with more severe adverse events in the higher-dose arm — supporting a straightforward, well-tolerated dosing strategy rather than aggressive per-kilogram escalation [@Arvieux2025EVRIOS]. Fluoroquinolone + rifampin remains the only companion-drug combination with genuine trial support (the Zimmerli paradigm above); doxycycline + rifampin is used in practice but lacks controlled-trial evidence, and rifampin's induction of doxycycline clearance is of uncertain clinical significance.
+
 ::: {.callout-warning}
 ## When to add rifampin — and when not to
 **Add** for retained prosthetic material/biofilm (PJI managed with retention, PVE), once the bacteremia is controlled and the isolate is susceptible. **Avoid** in uncomplicated *S. aureus* bacteremia and native valve endocarditis. **Never** start rifampin into a high-burden bacteremia before source control — do so and you invite resistance. Wait until blood cultures clear before adding it.
 :::
+
+When rifampin is indicated but a high-risk drug interaction exists (e.g., methadone, anticoagulants), **rifabutin** is a plausible substitute given its shared mechanism and weaker CYP3A4 induction. A retrospective single-center study of staphylococcal prosthetic joint infection found that only 3.4% of patients who met criteria for rifampin therapy had a drug interaction that would also contraindicate rifabutin, compared with 18.4% for rifampin itself — and completing rifampin therapy was associated with better treatment success and lower revision risk [@Leal2025Rifabutin]. This remains single-center, retrospective evidence rather than a head-to-head efficacy comparison, but it supports rifabutin substitution as a reasonable workaround rather than abandoning combination therapy altogether.
 
 ### VISA/VRSA and *rpoB*
 
@@ -200,10 +224,6 @@ Because rifaximin acts locally in the gut, most systemic-interaction concerns di
 ## Rifamycins in Development
 
 Investigational directions include aerosolized rifampin formulations (dry powders, chitosan-coated liposomes, colistin co-formulations) to raise intracellular pulmonary concentrations; rifamycin-loaded orthopedic scaffolds and PMMA to prevent device infection; and rifamycin SV MMX, a colon-targeted, non-absorbed formulation studied for travelers' diarrhea and other GI indications. Multi-targeting conjugates aim to suppress single-mutation resistance: **TNP-2092** (a rifamycin-quinolizinone hybrid inhibiting RNA polymerase, DNA gyrase, and topoisomerase IV) showed superior efficacy to metronidazole and vancomycin in a mouse *C. difficile* model [@TNP2092], and **TNP-2198** (a rifamycin-nitroimidazole hybrid) is in clinical development for *H. pylori*, *C. difficile*, and bacterial vaginosis [@TNP2198].
-
-<!-- IMAGE NEEDED: Structures of the four major rifamycins (rifampin, rifabutin, rifapentine, rifaximin) — Fig. 26.1 equivalent. Do not reproduce copyrighted figure; a redrawn ansamycin scaffold schematic would suffice. -->
-
-<!-- IMAGE NEEDED: Schematic of rifampin binding the RNAP β-subunit within the DNA/RNA channel (steric-occlusion model). -->
 
 ## Key Teaching Points
 

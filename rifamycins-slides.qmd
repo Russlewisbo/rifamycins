@@ -552,11 +552,7 @@ These four properties are exactly what you want against a foreign body [@Mandell
 - The mechanistic case for rifampin (biofilm penetration, activity vs. dormant organisms) is attractive but should not be over-interpreted as bedside-validated
 
 ::: aside
-[@Doern2014] is the standard peer-reviewed review of these methodological limitations
-:::
-
-::: aside
-Many clinicians feel that used of rifampin combinations in this area is "more religion than science."
+Many clinicians feel that used of rifampin combinations in this area is "more religion than science." [@Doern2014] is the standard peer-reviewed review of these methodological limitations
 :::
 
 ## Native valve endocarditis & uncomplicated bacteremia
@@ -719,12 +715,8 @@ Set up the indication slides: everything rifaximin does well is downstream of "i
 - Fewer breakthrough HE episodes; ↓ HE-related hospitalization vs placebo
 - ≥ as effective as lactulose, better tolerated
 
-::: aside
-[@Bass2010; @Paik2005]
-:::
-
 ::: notes
-The Bass 2010 NEJM trial is the pivotal evidence. Mechanism: fewer ammonia-producing gut organisms. Usually added to lactulose rather than replacing it.
+The Bass 2010 NEJM trial is the pivotal evidence. Mechanism: fewer ammonia-producing gut organisms. Usually added to lactulose rather than replacing it [@Bass2010; @Paik2005].
 :::
 
 ## Travelers' diarrhea
@@ -735,12 +727,8 @@ The Bass 2010 NEJM trial is the pivotal evidence. Mechanism: fewer ammonia-produ
 - \~72% effective for chemoprophylaxis
 - Fluoroquinolones preferred for prophylaxis (broader, invasive coverage)
 
-::: aside
-[@DuPont2005]
-:::
-
 ::: notes
-Rifaximin treats/prevents non-invasive (ETEC) diarrhea; it does not cover invasive/febrile dysentery, which is the limitation clinicians must remember.
+Rifaximin treats/prevents non-invasive (ETEC) diarrhea; it does not cover invasive/febrile dysentery, which is the limitation clinicians must remember [@DuPont2005].
 :::
 
 ## Recurrent C. difficile infection
@@ -751,12 +739,8 @@ Rifaximin treats/prevents non-invasive (ETEC) diarrhea; it does not cover invasi
 - Resistance is a real concern — high MICs, disproportionately BI/NAP1/027
 - Not first-line; a niche adjunct
 
-::: aside
-[@Garey2009; @OConnor2008]
-:::
-
 ::: notes
-Frame honestly: small studies, resistance risk. In the fidaxomicin/FMT era, rifaximin is a limited option, but residents will still see it used as a chaser.
+Small studies, resistance risk. In the fidaxomicin/FMT era, rifaximin is a limited option, but residents will still see it used as a chaser [@DuPont2005].
 :::
 
 ## IBS and inflammatory bowel disease
@@ -767,12 +751,8 @@ Frame honestly: small studies, resistance risk. In the fidaxomicin/FMT era, rifa
 - Possible steroid-sparing role in IBD (UC, Crohn, pouchitis)
 - Benefit attributed to microbiome + anti-inflammatory effects
 
-::: aside
-[@Guslandi2011]
-:::
-
 ::: notes
-IBS is the highest-volume real-world use of rifaximin. The IBD data are softer — present as emerging rather than established.
+IBS is the highest-volume real-world use of rifaximin. The IBD data are softer — present as emerging rather than established [@DuPont2005].
 :::
 
 ## Rifaximin resistance & the microbiome
@@ -798,12 +778,8 @@ Even a "non-systemic" rifamycin selects class resistance. This closes the loop w
 - Colon-targeted **rifamycin SV MMX**
 - Multi-targeting conjugates to beat single-mutation resistance: **TNP-2092**, **TNP-2198**
 
-::: aside
-[@TNP2092; @TNP2198]
-:::
-
 ::: notes
-The conjugates are the conceptually interesting frontier: by hitting RNAP plus DNA gyrase/topoisomerase (TNP-2092) or adding a nitroimidazole (TNP-2198), they raise the genetic barrier that a single rpoB mutation otherwise lowers. Full citations for these two flagged for verification.
+The conjugates are the conceptually interesting frontier: by hitting RNAP plus DNA gyrase/topoisomerase (TNP-2092) or adding a nitroimidazole (TNP-2198), they raise the genetic barrier that a single rpoB mutation otherwise lowers. Full citations for these two flagged for verification [@TNP2092; @TNP2198].
 :::
 
 ## Key take-home points
@@ -811,23 +787,13 @@ The conjugates are the conceptually interesting frontier: by hitting RNAP plus D
 <br>
 
 1.  Inhibit prokaryotic RNAP (*rpoB*); one mutation → high-level resistance → **never monotherapy**
+
 2.  **CYP3A4** induction: rifampin \> rifapentine \> rifabutin; rifabutin is the ART workaround
+
 3.  TB: rifampin best sterilizer; rifapentine enables 3HP/1HP; rifabutin with PIs
+
 4.  Staph: rifampin's niche is **retained hardware/biofilm** — add after source control; avoid in uncomplicated SAB/NVE
+
 5.  **Rifaximin** = gut-selective: HE, travelers' diarrhea, IBS, recurrent CDI
 
-::: notes
-Recap deliberately mirrors the objectives slide. If they leave with points 1 and 4, the hour succeeded.
-:::
-
-## Questions & Discussion
-
-<br>
-
-Russell E. Lewis, Pharm.D. — University of Padova
-
-*Rifampin · Rifabutin · Rifapentine · Rifaximin*
-
-::: notes
-Open the floor. Likely discussion: high-dose rifampin trials, the ARREST trial and adjunctive rifampin in SAB, and practical ART co-management with rifabutin.
-:::
+## References
