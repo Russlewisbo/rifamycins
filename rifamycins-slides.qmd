@@ -34,8 +34,6 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 
 <br>
 
-# Introduction & History {background-color="#b20e10"}
-
 ## Learning Objectives
 
 <br>
@@ -45,6 +43,8 @@ csl: diagnostic-microbiology-and-infectious-disease.csl
 - Apply the rifamycins across TB, LTBI, NTM, leprosy, and staphylococcal/device infection
 - Decide **when to add rifampin — and when not to**
 - Position rifaximin among gut-selective indications
+
+# Introduction & History {background-color="#b20e10"}
 
 ## A drug named after a crime film
 
@@ -85,6 +85,8 @@ One pharmacophore with four PK personalities. Everything downstream — dosing, 
 
 ## Ansamycin structure
 
+<br>
+
 ::::: columns
 ::: {.column width="50%"}
 - Ansamycin family (Latin *ansa*, "handle"): aliphatic bridge across a naphthoquinone core
@@ -93,7 +95,7 @@ One pharmacophore with four PK personalities. Everything downstream — dosing, 
 :::
 
 ::: {.column width="50%"}
-![](rifamycins-images/rifamycins.png){fig-align="center" width="350"}
+![](rifamycins-images/rifamycins.png){fig-align="center" width="650"}
 :::
 :::::
 
@@ -101,7 +103,7 @@ One pharmacophore with four PK personalities. Everything downstream — dosing, 
 Structures of the four major rifamycins.(A) Rifampin. (B) Rifabutin. (C) Rifapentine. (D) Rifaximin
 :::
 
-## Mechanism: inhibition of RNA polymerase
+## Mechanism: Inhibition of RNA polymerase
 
 ![](rifamycins-images/rifamycin_MOA.png){fig-align="center" width="750"}
 
@@ -155,7 +157,7 @@ These explain intrinsic gram-negative resistance and why rifampin MICs for Enter
 
 - High bacterial burden (cavitary TB, abscess, endocarditis, biofilm) guarantees a resistant subpopulation
 
-- **Rule:** rifamycins are almost always given in combination
+- **Rule:** rifamycins are always given in combination
 
 ## Rapid molecular detection: Xpert MTB/RIF
 
@@ -333,7 +335,7 @@ Exquisite gram-positive potency, poor gram-negative activity. This is why rifamp
 - Reduce dose if CrCl \<30 mL/min
 
 ::: aside
-The bidirectional dosing (down with PIs, up with efavirenz) trips people up. Anchor it: PIs raise rifabutin (lower the dose); efavirenz lowers rifabutin (raise the dose) [@Blaschke1996; @Burman2001].
+The bidirectional dosing (down with PIs, up with efavirenz) trips people up. PIs raise rifabutin (lower the dose); efavirenz lowers rifabutin (raise the dose) [@Blaschke1996; @Burman2001].
 :::
 
 ## Rifabutin — distinctive toxicity
@@ -399,7 +401,7 @@ Sterilizing activity — killing the slowly/non-replicating persisters — is th
 - Prospect: shorter regimens with optimized dosing
 
 ::: aside
-This is an active area — the historical dose was set by cost and PK assumptions from the 1970s, not efficacy. High-dose rifampin trials (PanACEA, etc.) are reshaping practice. Good discussion point for residents [@Goble1993; @Alfarisi2017].
+This is an active area — the historical dose was set by cost and PK assumptions from the 1970s, not efficacy. High-dose rifampin trials (PanACEA, etc.) are reshaping practice[@Goble1993; @Alfarisi2017].
 :::
 
 ## TB dosing: an unsettled debate
@@ -412,7 +414,7 @@ This is an active area — the historical dose was set by cost and PK assumption
 - WHO is actively reconsidering dosing guidance — experts disagree on whether 1200 mg should become the new starting dose
 
 ::: aside
-Frame this as genuinely unresolved rather than settled. One panelist advocates a 1200 mg starting dose to avoid the low-exposure tail; the other emphasizes that per-kg toxicity data above \~20 mg/kg remain uncertain. Good spot to invite student debate rather than hand down a single answer [@Jindani2023RIFASHORT].
+Frame this as genuinely unresolved rather than settled. Some recommend a 1200 mg starting dose to avoid the low-exposure tail; while others emphasize that per-kg toxicity data above \~20 mg/kg remain uncertain [@Jindani2023RIFASHORT].
 :::
 
 ## Special populations: when to push the dose
@@ -425,7 +427,7 @@ Frame this as genuinely unresolved rather than settled. One panelist advocates a
 - Gradual dose escalation is favored by some experts in older/NTM patients with tolerability concerns — an individualized, not standardized, approach
 
 ::: aside
-[@Meya2025HARVEST] for TB meningitis dosing. MAC/malabsorption/escalation points reflect expert practice patterns from *Breakpoints* (SIDP) podcast, part 1, not a validated algorithm — TDM targets and escalation thresholds vary by center. Useful bridge into "trust but verify" as a TDM philosophy.
+See reference [@Meya2025HARVEST] for TB meningitis dosing. MAC/malabsorption/escalation points reflect expert practice patterns not a validated algorithm — TDM targets and escalation thresholds vary by center. Useful bridge into "trust but verify" as a TDM philosophy.
 :::
 
 ## Rifapentine in active TB
