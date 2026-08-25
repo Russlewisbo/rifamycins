@@ -421,7 +421,7 @@ Frame this as genuinely unresolved rather than settled. Some recommend a 1200 mg
 
 <br>
 
-- **TB meningitis:** rifampin CSF penetration is poor relative to plasma. The 2025 **HARVEST trial** (499 adults, Indonesia/South Africa/Uganda) found high-dose oral rifampicin (35 mg/kg) did **not** improve 6-month survival vs. standard 10 mg/kg (44.6% vs. 40.7% mortality; HR 1.17, 95% CI 0.89–1.54) — this supersedes the podcast's "inconclusive, still under study" framing
+- **TB meningitis:** rifampin CSF penetration is poor relative to plasma. The 2025 **HARVEST trial** (499 adults, Indonesia/South Africa/Uganda) found high-dose oral rifampicin (35 mg/kg) did **not** improve 6-month survival vs. standard 10 mg/kg (44.6% vs. 40.7% mortality; HR 1.17, 95% CI 0.89–1.54).
 - **MAC:** MIC distribution is right-shifted (\~2 dilutions above *M. tuberculosis*) — standard TB doses may be inadequate, though this is not yet a guideline-endorsed practice
 - **Malabsorption** (bariatric surgery, interacting drugs) → unexpectedly low levels; TDM (e.g., paired 2 h/6 h or 3 h/7 h sampling) can detect and guide correction
 - Gradual dose escalation is favored by some experts in older/NTM patients with tolerability concerns — an individualized, not standardized, approach
